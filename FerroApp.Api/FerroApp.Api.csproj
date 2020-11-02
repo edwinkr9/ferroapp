@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FerroApp.Domain\FerroApp.Domain.csproj" />
+    <ProjectReference Include="..\FerroApp.Infraestructure\FerroApp.Infraestructure.csproj" />
+  </ItemGroup>
+
+
+</Project>
