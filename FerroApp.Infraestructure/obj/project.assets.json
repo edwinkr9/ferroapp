@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\edwin\\Desktop\\Proyecto FerrApp\\FerroApp\\FerroApp.Infraestructure\\FerroApp.Infraestructure.csproj",
+      "projectUniqueName": "C:\\Users\\edwin\\Desktop\\Proyecto_FerroApp\\FerroApp\\FerroApp.Infraestructure\\FerroApp.Infraestructure.csproj",
       "projectName": "FerroApp.Infraestructure",
-      "projectPath": "C:\\Users\\edwin\\Desktop\\Proyecto FerrApp\\FerroApp\\FerroApp.Infraestructure\\FerroApp.Infraestructure.csproj",
+      "projectPath": "C:\\Users\\edwin\\Desktop\\Proyecto_FerroApp\\FerroApp\\FerroApp.Infraestructure\\FerroApp.Infraestructure.csproj",
       "packagesPath": "C:\\Users\\edwin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\edwin\\Desktop\\Proyecto FerrApp\\FerroApp\\FerroApp.Infraestructure\\obj\\",
+      "outputPath": "C:\\Users\\edwin\\Desktop\\Proyecto_FerroApp\\FerroApp\\FerroApp.Infraestructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\edwin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -52,8 +52,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\edwin\\Desktop\\Proyecto FerrApp\\FerroApp\\FerroApp.Domain\\FerroApp.Domain.csproj": {
-              "projectPath": "C:\\Users\\edwin\\Desktop\\Proyecto FerrApp\\FerroApp\\FerroApp.Domain\\FerroApp.Domain.csproj"
+            "C:\\Users\\edwin\\Desktop\\Proyecto_FerroApp\\FerroApp\\FerroApp.Domain\\FerroApp.Domain.csproj": {
+              "projectPath": "C:\\Users\\edwin\\Desktop\\Proyecto_FerroApp\\FerroApp\\FerroApp.Domain\\FerroApp.Domain.csproj"
             }
           }
         }

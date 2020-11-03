@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+K/OFElcKQVvbqO1Fd5AEmRyLUw8X4B7/yDuEw5MOq5EpxPzRIxAEhpLjCubFcJWnu3DPjC33wOtVu0stGKmgw==",
+  "dgSpecHash": "bzto7aJW7Cu7+W24QVq6EUrczeCC3IH+qmLg292DMR+aVXaBdkx0fyJWpHwiW775R2Os6NLVmbT46xAcUBf55g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\edwin\\Desktop\\Proyecto FerrApp\\FerroApp\\FerroApp.Infraestructure\\FerroApp.Infraestructure.csproj",
+  "projectFilePath": "C:\\Users\\edwin\\Desktop\\Proyecto_FerroApp\\FerroApp\\FerroApp.Infraestructure\\FerroApp.Infraestructure.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
