@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FerroApp.Infraestructure", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FerroApp.Api", "FerroApp.Api\FerroApp.Api.csproj", "{F8DFDD02-9E14-4879-AD48-05C191A0F656}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FerroApp.GUI", "FerroApp.GUI\FerroApp.GUI.csproj", "{4EE45803-90F7-4578-AD07-B95DB37FBB0C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FerroApp.GUI", "FerroApp.GUI\FerroApp.GUI.csproj", "{4EE45803-90F7-4578-AD07-B95DB37FBB0C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
