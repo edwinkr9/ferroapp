@@ -36,3 +36,6 @@ C:\Users\edwin\Desktop\Proyecto_FerroApp\FerroApp\FerroApp.GUI\obj\Debug\netcore
 C:\Users\edwin\Desktop\Proyecto_FerroApp\FerroApp\FerroApp.GUI\obj\Debug\netcoreapp3.1\FerroApp.GUI.genruntimeconfig.cache
 C:\Users\edwin\Desktop\Proyecto_FerroApp\FerroApp\FerroApp.GUI\obj\Debug\netcoreapp3.1\FerroApp.GUI.csproj.CopyComplete
 C:\Users\edwin\Desktop\Proyecto_FerroApp\FerroApp\FerroApp.GUI\obj\Debug\netcoreapp3.1\Razor\Pages\Item.cshtml.g.cs
+C:\Users\edwin\Desktop\Proyecto_FerroApp\FerroApp\FerroApp.GUI\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_LayoutAdmin.cshtml.g.cs
+C:\Users\edwin\Desktop\Proyecto_FerroApp\FerroApp\FerroApp.GUI\obj\Debug\netcoreapp3.1\Razor\Pages\AdminPages\Admin.cshtml.g.cs
+C:\Users\edwin\Desktop\Proyecto_FerroApp\FerroApp\FerroApp.GUI\obj\Debug\netcoreapp3.1\Razor\Pages\Login.cshtml.g.cs
