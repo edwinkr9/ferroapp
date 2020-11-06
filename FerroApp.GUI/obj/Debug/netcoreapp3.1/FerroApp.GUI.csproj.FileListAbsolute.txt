@@ -9,7 +9,6 @@ C:\Users\edwin\Desktop\Proyecto_FerroApp\FerroApp\FerroApp.GUI\bin\Debug\netcore
 C:\Users\edwin\Desktop\Proyecto_FerroApp\FerroApp\FerroApp.GUI\bin\Debug\netcoreapp3.1\FerroApp.GUI.pdb
 C:\Users\edwin\Desktop\Proyecto_FerroApp\FerroApp\FerroApp.GUI\bin\Debug\netcoreapp3.1\FerroApp.GUI.Views.dll
 C:\Users\edwin\Desktop\Proyecto_FerroApp\FerroApp\FerroApp.GUI\bin\Debug\netcoreapp3.1\FerroApp.GUI.Views.pdb
-C:\Users\edwin\Desktop\Proyecto_FerroApp\FerroApp\FerroApp.GUI\obj\Debug\netcoreapp3.1\FerroApp.GUI.csprojAssemblyReference.cache
 C:\Users\edwin\Desktop\Proyecto_FerroApp\FerroApp\FerroApp.GUI\obj\Debug\netcoreapp3.1\FerroApp.GUI.AssemblyInfoInputs.cache
 C:\Users\edwin\Desktop\Proyecto_FerroApp\FerroApp\FerroApp.GUI\obj\Debug\netcoreapp3.1\FerroApp.GUI.AssemblyInfo.cs
 C:\Users\edwin\Desktop\Proyecto_FerroApp\FerroApp\FerroApp.GUI\obj\Debug\netcoreapp3.1\FerroApp.GUI.csproj.CoreCompileInputs.cache
@@ -19,10 +18,15 @@ C:\Users\edwin\Desktop\Proyecto_FerroApp\FerroApp\FerroApp.GUI\obj\Debug\netcore
 C:\Users\edwin\Desktop\Proyecto_FerroApp\FerroApp\FerroApp.GUI\obj\Debug\netcoreapp3.1\FerroApp.GUI.TagHelpers.input.cache
 C:\Users\edwin\Desktop\Proyecto_FerroApp\FerroApp\FerroApp.GUI\obj\Debug\netcoreapp3.1\FerroApp.GUI.TagHelpers.output.cache
 C:\Users\edwin\Desktop\Proyecto_FerroApp\FerroApp\FerroApp.GUI\obj\Debug\netcoreapp3.1\FerroApp.GUI.RazorCoreGenerate.cache
+C:\Users\edwin\Desktop\Proyecto_FerroApp\FerroApp\FerroApp.GUI\obj\Debug\netcoreapp3.1\Razor\Pages\AdminPages\Admin.cshtml.g.cs
+C:\Users\edwin\Desktop\Proyecto_FerroApp\FerroApp\FerroApp.GUI\obj\Debug\netcoreapp3.1\Razor\Pages\AdminPages\Config.cshtml.g.cs
 C:\Users\edwin\Desktop\Proyecto_FerroApp\FerroApp\FerroApp.GUI\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
 C:\Users\edwin\Desktop\Proyecto_FerroApp\FerroApp\FerroApp.GUI\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
+C:\Users\edwin\Desktop\Proyecto_FerroApp\FerroApp\FerroApp.GUI\obj\Debug\netcoreapp3.1\Razor\Pages\Item.cshtml.g.cs
+C:\Users\edwin\Desktop\Proyecto_FerroApp\FerroApp\FerroApp.GUI\obj\Debug\netcoreapp3.1\Razor\Pages\Login.cshtml.g.cs
 C:\Users\edwin\Desktop\Proyecto_FerroApp\FerroApp\FerroApp.GUI\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
 C:\Users\edwin\Desktop\Proyecto_FerroApp\FerroApp\FerroApp.GUI\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
+C:\Users\edwin\Desktop\Proyecto_FerroApp\FerroApp\FerroApp.GUI\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_LayoutAdmin.cshtml.g.cs
 C:\Users\edwin\Desktop\Proyecto_FerroApp\FerroApp\FerroApp.GUI\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\edwin\Desktop\Proyecto_FerroApp\FerroApp\FerroApp.GUI\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
 C:\Users\edwin\Desktop\Proyecto_FerroApp\FerroApp\FerroApp.GUI\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
@@ -35,7 +39,4 @@ C:\Users\edwin\Desktop\Proyecto_FerroApp\FerroApp\FerroApp.GUI\obj\Debug\netcore
 C:\Users\edwin\Desktop\Proyecto_FerroApp\FerroApp\FerroApp.GUI\obj\Debug\netcoreapp3.1\FerroApp.GUI.pdb
 C:\Users\edwin\Desktop\Proyecto_FerroApp\FerroApp\FerroApp.GUI\obj\Debug\netcoreapp3.1\FerroApp.GUI.genruntimeconfig.cache
 C:\Users\edwin\Desktop\Proyecto_FerroApp\FerroApp\FerroApp.GUI\obj\Debug\netcoreapp3.1\FerroApp.GUI.csproj.CopyComplete
-C:\Users\edwin\Desktop\Proyecto_FerroApp\FerroApp\FerroApp.GUI\obj\Debug\netcoreapp3.1\Razor\Pages\Item.cshtml.g.cs
-C:\Users\edwin\Desktop\Proyecto_FerroApp\FerroApp\FerroApp.GUI\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_LayoutAdmin.cshtml.g.cs
-C:\Users\edwin\Desktop\Proyecto_FerroApp\FerroApp\FerroApp.GUI\obj\Debug\netcoreapp3.1\Razor\Pages\AdminPages\Admin.cshtml.g.cs
-C:\Users\edwin\Desktop\Proyecto_FerroApp\FerroApp\FerroApp.GUI\obj\Debug\netcoreapp3.1\Razor\Pages\Login.cshtml.g.cs
+C:\Users\edwin\Desktop\Proyecto_FerroApp\FerroApp\FerroApp.GUI\obj\Debug\netcoreapp3.1\FerroApp.GUI.csprojAssemblyReference.cache

@@ -3,8 +3,30 @@
 @{
     Layout = "~/Pages/Shared/_LayoutAdmin.cshtml";
 }
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Admin Console</title>
+    <meta name="description" content="Sufee Admin - HTML5 Admin Template">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="apple-icon.png">
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <link href="~/Vendor/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/Vendor/themify-icons/css/themify-icons.css" rel="stylesheet" />
+    <link href="~/Vendor/flag-icon-css/css/flag-icon.min.css" rel="stylesheet" />
+    <link href="~/Vendor/selectFX/css/cs-skin-elastic.css" rel="stylesheet" />
+    <link href="~/Vendor/jqvmap/dist/jqvmap.min.css" rel="stylesheet" />
+    <link href="~/Vendor/assets/css/style2.css" rel="stylesheet" />
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>
+</head>
 <body>
-    <div id="right-panel" class="right-panel">
+    <div class="page-wrapper default-theme sidebar-bg bg1 toggled">
+
         <div class="breadcrumbs">
             <div class="col-sm-4">
                 <div class="page-header float-left">
@@ -411,33 +433,33 @@
 
 
         </div> <!-- .content -->
-    </div>
-    <script src="~/Vendor/jquery/dist/jquery.min.js"></script>
-    <script src="~/Vendor/popper.js/dist/umd/popper.min.js"></script>
-    <script src="~/Vendor/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="~/Vendor/assets/js/main.js"></script>
-    <script src="~/Vendor/chart.js/dist/Chart.bundle.min.js"></script>
-    <script src="~/Vendor/assets/js/dashboard.js"></script>
-    <script src="~/Vendor/assets/js/widgets.js"></script>
-    <script src="~/Vendor/jqvmap/dist/jquery.vmap.min.js"></script>
-    <script src="~/Vendor/jqvmap/examples/js/jquery.vmap.sampledata.js"></script>
-    <script src="~/Vendor/jqvmap/dist/maps/jquery.vmap.world.js"></script>
-    <script>
-        (function ($) {
-            "use strict";
+        <script src="~/Vendor/jquery/dist/jquery.min.js"></script>
+        <script src="~/Vendor/popper.js/dist/umd/popper.min.js"></script>
+        <script src="~/Vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="~/Vendor/assets/js/main.js"></script>
+        <script src="~/Vendor/chart.js/dist/Chart.bundle.min.js"></script>
+        <script src="~/Vendor/assets/js/dashboard.js"></script>
+        <script src="~/Vendor/assets/js/widgets.js"></script>
+        <script src="~/Vendor/jqvmap/dist/jquery.vmap.min.js"></script>
+        <script src="~/Vendor/jqvmap/examples/js/jquery.vmap.sampledata.js"></script>
+        <script src="~/Vendor/jqvmap/dist/maps/jquery.vmap.world.js"></script>
+        <script>
+            (function ($) {
+                "use strict";
 
-            jQuery('#vmap').vectorMap({
-                map: 'world_en',
-                backgroundColor: null,
-                color: '#ffffff',
-                hoverOpacity: 0.7,
-                selectedColor: '#1de9b6',
-                enableZoom: true,
-                showTooltip: true,
-                values: sample_data,
-                scaleColors: ['#1de9b6', '#03a9f5'],
-                normalizeFunction: 'polynomial'
-            });
-        })(jQuery);
-    </script>
+                jQuery('#vmap').vectorMap({
+                    map: 'world_en',
+                    backgroundColor: null,
+                    color: '#ffffff',
+                    hoverOpacity: 0.7,
+                    selectedColor: '#1de9b6',
+                    enableZoom: true,
+                    showTooltip: true,
+                    values: sample_data,
+                    scaleColors: ['#1de9b6', '#03a9f5'],
+                    normalizeFunction: 'polynomial'
+                });
+            })(jQuery);
+        </script>
+    </div>
 </body>
