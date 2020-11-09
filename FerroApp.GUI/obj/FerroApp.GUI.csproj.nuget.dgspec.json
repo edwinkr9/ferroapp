@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\edwin\\Desktop\\Proyecto_FerroApp\\FerroApp\\FerroApp.GUI\\FerroApp.GUI.csproj": {}
+    "C:\\Users\\carna\\Documents\\Repositorios\\ferroapp\\FerroApp.GUI\\FerroApp.GUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\edwin\\Desktop\\Proyecto_FerroApp\\FerroApp\\FerroApp.GUI\\FerroApp.GUI.csproj": {
+    "C:\\Users\\carna\\Documents\\Repositorios\\ferroapp\\FerroApp.GUI\\FerroApp.GUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\edwin\\Desktop\\Proyecto_FerroApp\\FerroApp\\FerroApp.GUI\\FerroApp.GUI.csproj",
+        "projectUniqueName": "C:\\Users\\carna\\Documents\\Repositorios\\ferroapp\\FerroApp.GUI\\FerroApp.GUI.csproj",
         "projectName": "FerroApp.GUI",
-        "projectPath": "C:\\Users\\edwin\\Desktop\\Proyecto_FerroApp\\FerroApp\\FerroApp.GUI\\FerroApp.GUI.csproj",
-        "packagesPath": "C:\\Users\\edwin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\edwin\\Desktop\\Proyecto_FerroApp\\FerroApp\\FerroApp.GUI\\obj\\",
+        "projectPath": "C:\\Users\\carna\\Documents\\Repositorios\\ferroapp\\FerroApp.GUI\\FerroApp.GUI.csproj",
+        "packagesPath": "C:\\Users\\carna\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\carna\\Documents\\Repositorios\\ferroapp\\FerroApp.GUI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\edwin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\carna\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
