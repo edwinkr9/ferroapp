@@ -1,394 +1,487 @@
-﻿<!DOCTYPE html>
+﻿
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description"
-          content="Responsive sidebar template with sliding effect and dropdown menu based on bootstrap 3">
-    <title>Sidebar template</title>
+    <!-- Required meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="au theme template">
+    <meta name="author" content="Hau Nguyen">
+    <meta name="keywords" content="au theme template">
 
-    <!-- using online links -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
-          integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-          integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-    <link href="~/Custom/jquery.mCustomScrollbar.min.css" rel="stylesheet" />
-    <script src="~/Custom/jquery.mCustomScrollbar.concat.min.js"></script>
+    <!-- Title Page-->
+    <title>Dashboard</title>
 
-    <!-- using local links -->
-    <!-- <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../node_modules/fortawesome/fontawesome-free/css/all.min.css">
-     -->
-    <link href="~/Vendor/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="~/Vendor/font-awesome/css/all.min.css" rel="stylesheet" />
+    <!-- Fontfaces CSS-->
+    <link href="~/css/font-face.css" rel="stylesheet" media="all" />
+    <link href="~/Vendor/font-awesome-4.7/css/font-awesome.css" rel="stylesheet" media="all" />
+    <link href="~/Vendor/font-awesome-5/css/fontawesome-all.min.css" rel="stylesheet" media="all" />
+    <link href="~/css/material-design-iconic-font.min.css" rel="stylesheet" media="all" />
 
-    <link href="~/css/main.css" rel="stylesheet" />
-    <link href="~/css/sidebar-themes.css" rel="stylesheet" />
-    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+    <!-- Bootstrap CSS-->
+    <link href="~/Vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="all" />
+
+    <!-- Vendor CSS-->
+    <link href="~/Vendor/animsition/animsition.min.css" rel="stylesheet" media="all" />
+    <link href="~/Vendor/bootstrap-progressbar/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet" media="all" />
+    <link href="~/Vendor/wow/animate.css" rel="stylesheet" media="all" />
+    <link href="~/Vendor/css-hamburgers/hamburgers.css" rel="stylesheet" media="all" />
+    <link href="~/Vendor/slick/slick.css" rel="stylesheet" media="all" />
+    <link href="~/Vendor/select2/select2.min.css" rel="stylesheet" media="all" />
+    <link href="~/Vendor/perfect-scrollbar/perfect-scrollbar.css" rel="stylesheet" media="all" />
+
+    <!-- Main CSS-->
+    <link href="~/css/theme.css" rel="stylesheet" media="all" />
+
 </head>
 
-<body>
-    <div class="page-wrapper default-theme sidebar-bg bg1 toggled">
-        <nav id="sidebar" class="sidebar-wrapper">
-            <div class="sidebar-content">
-                <!-- sidebar-brand  -->
-                <div class="sidebar-item sidebar-brand">
-                    <a href="#">pro sidebar</a>
-                </div>
-                <!-- sidebar-header  -->
-                <div class="sidebar-item sidebar-header d-flex flex-nowrap">
-                    <div class="user-pic">
-                        <img class="img-responsive img-rounded" src="img/user.jpg" alt="User picture">
-                    </div>
-                    <div class="user-info">
-                        <span class="user-name">
-                            Jhon
-                            <strong>Smith</strong>
-                        </span>
-                        <span class="user-role">Administrator</span>
-                        <span class="user-status">
-                            <i class="fa fa-circle"></i>
-                            <span>Online</span>
-                        </span>
+<body class="animsition">
+    <div class="page-wrapper">
+        <!-- HEADER MOBILE-->
+        <header class="header-mobile d-block d-lg-none">
+            <div class="header-mobile__bar">
+                <div class="container-fluid">
+                    <div class="header-mobile-inner">
+                        <a class="logo" href="index.html">
+                            <img src="images/icon/logo.png" alt="CoolAdmin" />
+                        </a>
+                        <button class="hamburger hamburger--slider" type="button">
+                            <span class="hamburger-box">
+                                <span class="hamburger-inner"></span>
+                            </span>
+                        </button>
                     </div>
                 </div>
-                <!-- sidebar-search  -->
-                <div class="sidebar-item sidebar-search">
-                    <div>
-                        <div class="input-group">
-                            <input type="text" class="form-control search-menu" placeholder="Search...">
-                            <div class="input-group-append">
-                                <span class="input-group-text">
-                                    <i class="fa fa-search" aria-hidden="true"></i>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- sidebar-menu  -->
-                <div class=" sidebar-item sidebar-menu">
-                    <ul>
-                        <li class="header-menu">
-                            <span>General</span>
-                        </li>
-                        <li class="sidebar-dropdown">
-                            <a href="#">
-                                <i class="fa fa-tachometer-alt"></i>
-                                <span class="menu-text">Dashboard</span>
-                                <span class="badge badge-pill badge-warning">New</span>
+            </div>
+            <nav class="navbar-mobile">
+                <div class="container-fluid">
+                    <ul class="navbar-mobile__list list-unstyled">
+                        <li class="has-sub">
+                            <a class="js-arrow" href="#">
+                                <i class="fas fa-tachometer-alt"></i>Dashboard
                             </a>
-                            <div class="sidebar-submenu">
-                                <ul>
-                                    <li>
-                                        <a href="#">
-                                            Dashboard 1
-                                            <span class="badge badge-pill badge-success">Pro</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Dashboard 2</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Dashboard 3</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="sidebar-dropdown">
-                            <a href="#">
-                                <i class="fa fa-shopping-cart"></i>
-                                <span class="menu-text">E-commerce</span>
-                                <span class="badge badge-pill badge-danger">3</span>
-                            </a>
-                            <div class="sidebar-submenu">
-                                <ul>
-                                    <li>
-                                        <a href="#">
-                                            Products
-
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Orders</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Credit cart</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="sidebar-dropdown">
-                            <a href="#">
-                                <i class="far fa-gem"></i>
-                                <span class="menu-text">Components</span>
-                            </a>
-                            <div class="sidebar-submenu">
-                                <ul>
-                                    <li>
-                                        <a href="#">General</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Panels</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Tables</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Icons</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Forms</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="sidebar-dropdown">
-                            <a href="#">
-                                <i class="fa fa-chart-line"></i>
-                                <span class="menu-text">Charts</span>
-                            </a>
-                            <div class="sidebar-submenu">
-                                <ul>
-                                    <li>
-                                        <a href="#">Pie chart</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Line chart</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Bar chart</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Histogram</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="sidebar-dropdown">
-                            <a href="#">
-                                <i class="fa fa-globe"></i>
-                                <span class="menu-text">Maps</span>
-                            </a>
-                            <div class="sidebar-submenu">
-                                <ul>
-                                    <li>
-                                        <a href="#">Google maps</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Open street map</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="header-menu">
-                            <span>Extra</span>
+                            <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
+                                <li>
+                                    <a href="index.html">Dashboard 1</a>
+                                </li>
+                                <li>
+                                    <a href="index2.html">Dashboard 2</a>
+                                </li>
+                                <li>
+                                    <a href="index3.html">Dashboard 3</a>
+                                </li>
+                                <li>
+                                    <a href="index4.html">Dashboard 4</a>
+                                </li>
+                            </ul>
                         </li>
                         <li>
-                            <a href="#">
-                                <i class="fa fa-book"></i>
-                                <span class="menu-text">Documentation</span>
-                                <span class="badge badge-pill badge-primary">Beta</span>
+                            <a href="chart.html">
+                                <i class="fas fa-chart-bar"></i>Charts
                             </a>
                         </li>
                         <li>
-                            <a href="#">
-                                <i class="fa fa-calendar"></i>
-                                <span class="menu-text">Calendar</span>
+                            <a href="table.html">
+                                <i class="fas fa-table"></i>Tables
                             </a>
                         </li>
                         <li>
-                            <a href="#">
-                                <i class="fa fa-folder"></i>
-                                <span class="menu-text">Examples</span>
+                            <a href="form.html">
+                                <i class="far fa-check-square"></i>Forms
                             </a>
+                        </li>
+                        <li>
+                            <a href="calendar.html">
+                                <i class="fas fa-calendar-alt"></i>Calendar
+                            </a>
+                        </li>
+                        <li>
+                            <a href="map.html">
+                                <i class="fas fa-map-marker-alt"></i>Maps
+                            </a>
+                        </li>
+                        <li class="has-sub">
+                            <a class="js-arrow" href="#">
+                                <i class="fas fa-copy"></i>Pages
+                            </a>
+                            <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
+                                <li>
+                                    <a href="login.html">Login</a>
+                                </li>
+                                <li>
+                                    <a href="register.html">Register</a>
+                                </li>
+                                <li>
+                                    <a href="forget-pass.html">Forget Password</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="has-sub">
+                            <a class="js-arrow" href="#">
+                                <i class="fas fa-desktop"></i>UI Elements
+                            </a>
+                            <ul class="navbar-mobile-sub__list list-unstyled js-sub-list">
+                                <li>
+                                    <a href="button.html">Button</a>
+                                </li>
+                                <li>
+                                    <a href="badge.html">Badges</a>
+                                </li>
+                                <li>
+                                    <a href="tab.html">Tabs</a>
+                                </li>
+                                <li>
+                                    <a href="card.html">Cards</a>
+                                </li>
+                                <li>
+                                    <a href="alert.html">Alerts</a>
+                                </li>
+                                <li>
+                                    <a href="progress-bar.html">Progress Bars</a>
+                                </li>
+                                <li>
+                                    <a href="modal.html">Modals</a>
+                                </li>
+                                <li>
+                                    <a href="switch.html">Switchs</a>
+                                </li>
+                                <li>
+                                    <a href="grid.html">Grids</a>
+                                </li>
+                                <li>
+                                    <a href="fontawesome.html">Fontawesome Icon</a>
+                                </li>
+                                <li>
+                                    <a href="typo.html">Typography</a>
+                                </li>
+                            </ul>
                         </li>
                     </ul>
                 </div>
-                <!-- sidebar-menu  -->
+            </nav>
+        </header>
+        <!-- END HEADER MOBILE-->
+        <!-- MENU SIDEBAR-->
+        <aside class="menu-sidebar d-none d-lg-block">
+            <div class="logo">
+                <a href="#">
+                    <img src="~/img/logo.png" alt="G" />
+                </a>
             </div>
-            <!-- sidebar-footer  -->
-            <div class="sidebar-footer">
-                <div class="dropdown">
-
-                    <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <i class="fa fa-bell"></i>
-                        <span class="badge badge-pill badge-warning notification">3</span>
-                    </a>
-                    <div class="dropdown-menu notifications" aria-labelledby="dropdownMenuMessage">
-                        <div class="notifications-header">
-                            <i class="fa fa-bell"></i>
-                            Notifications
-                        </div>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">
-                            <div class="notification-content">
-                                <div class="icon">
-                                    <i class="fas fa-check text-success border border-success"></i>
-                                </div>
-                                <div class="content">
-                                    <div class="notification-detail">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing
-                                        elit. In totam explicabo
-                                    </div>
-                                    <div class="notification-time">
-                                        6 minutes ago
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                        <a class="dropdown-item" href="#">
-                            <div class="notification-content">
-                                <div class="icon">
-                                    <i class="fas fa-exclamation text-info border border-info"></i>
-                                </div>
-                                <div class="content">
-                                    <div class="notification-detail">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing
-                                        elit. In totam explicabo
-                                    </div>
-                                    <div class="notification-time">
-                                        Today
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                        <a class="dropdown-item" href="#">
-                            <div class="notification-content">
-                                <div class="icon">
-                                    <i class="fas fa-exclamation-triangle text-warning border border-warning"></i>
-                                </div>
-                                <div class="content">
-                                    <div class="notification-detail">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing
-                                        elit. In totam explicabo
-                                    </div>
-                                    <div class="notification-time">
-                                        Yesterday
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item text-center" href="#">View all notifications</a>
-                    </div>
-                </div>
-                <div class="dropdown">
-                    <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <i class="fa fa-envelope"></i>
-                        <span class="badge badge-pill badge-success notification">7</span>
-                    </a>
-                    <div class="dropdown-menu messages" aria-labelledby="dropdownMenuMessage">
-                        <div class="messages-header">
-                            <i class="fa fa-envelope"></i>
-                            Messages
-                        </div>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">
-                            <div class="message-content">
-                                <div class="pic">
-                                    <img src="img/user.jpg" alt="">
-                                </div>
-                                <div class="content">
-                                    <div class="message-title">
-                                        <strong> Jhon doe</strong>
-                                    </div>
-                                    <div class="message-detail">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing
-                                        elit. In totam explicabo
-                                    </div>
-                                </div>
-                            </div>
-
-                        </a>
-                        <a class="dropdown-item" href="#">
-                            <div class="message-content">
-                                <div class="pic">
-                                    <img src="img/user.jpg" alt="">
-                                </div>
-                                <div class="content">
-                                    <div class="message-title">
-                                        <strong> Jhon doe</strong>
-                                    </div>
-                                    <div class="message-detail">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing
-                                        elit. In totam explicabo
-                                    </div>
-                                </div>
-                            </div>
-
-                        </a>
-                        <a class="dropdown-item" href="#">
-                            <div class="message-content">
-                                <div class="pic">
-                                    <img src="img/user.jpg" alt="">
-                                </div>
-                                <div class="content">
-                                    <div class="message-title">
-                                        <strong> Jhon doe</strong>
-                                    </div>
-                                    <div class="message-detail">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing
-                                        elit. In totam explicabo
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item text-center" href="#">View all messages</a>
-
-                    </div>
-                </div>
-                <div class="dropdown">
-                    <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <i class="fa fa-cog"></i>
-                        <span class="badge-sonar"></span>
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuMessage">
-                        <a class="dropdown-item" href="#">My profile</a>
-                        <a class="dropdown-item" href="#">Help</a>
-                        <a class="dropdown-item" href="~/AdminPages/Config">Setting</a>
-                    </div>
-                </div>
-                <div>
-                    <a href="#">
-                        <i class="fa fa-power-off"></i>
-                    </a>
-                </div>
-                <div class="pinned-footer">
-                    <a href="#">
-                        <i class="fas fa-ellipsis-h"></i>
-                    </a>
-                </div>
+            <div class="menu-sidebar__content js-scrollbar1">
+                <nav class="navbar-sidebar">
+                    <ul class="list-unstyled navbar__list">
+                        <li class="active has-sub">
+                            <a class="js-arrow" href="#">
+                                <i class="fas fa-tachometer-alt"></i>Dashboard
+                            </a>
+                            <ul class="list-unstyled navbar__sub-list js-sub-list">
+                                <li>
+                                    <a href="index.html">Dashboard 1</a>
+                                </li>
+                                <li>
+                                    <a href="index2.html">Dashboard 2</a>
+                                </li>
+                                <li>
+                                    <a href="index3.html">Dashboard 3</a>
+                                </li>
+                                <li>
+                                    <a href="index4.html">Dashboard 4</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="chart.html">
+                                <i class="fas fa-chart-bar"></i>Charts
+                            </a>
+                        </li>
+                        <li>
+                            <a href="table.html">
+                                <i class="fas fa-table"></i>Tables
+                            </a>
+                        </li>
+                        <li>
+                            <a href="form.html">
+                                <i class="far fa-check-square"></i>Forms
+                            </a>
+                        </li>
+                        <li>
+                            <a href="calendar.html">
+                                <i class="fas fa-calendar-alt"></i>Calendar
+                            </a>
+                        </li>
+                        <li>
+                            <a href="map.html">
+                                <i class="fas fa-map-marker-alt"></i>Maps
+                            </a>
+                        </li>
+                        <li class="has-sub">
+                            <a class="js-arrow" href="#">
+                                <i class="fas fa-copy"></i>Pages
+                            </a>
+                            <ul class="list-unstyled navbar__sub-list js-sub-list">
+                                <li>
+                                    <a href="login.html">Login</a>
+                                </li>
+                                <li>
+                                    <a href="register.html">Register</a>
+                                </li>
+                                <li>
+                                    <a href="forget-pass.html">Forget Password</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="has-sub">
+                            <a class="js-arrow" href="#">
+                                <i class="fas fa-desktop"></i>UI Elements
+                            </a>
+                            <ul class="list-unstyled navbar__sub-list js-sub-list">
+                                <li>
+                                    <a href="button.html">Button</a>
+                                </li>
+                                <li>
+                                    <a href="badge.html">Badges</a>
+                                </li>
+                                <li>
+                                    <a href="tab.html">Tabs</a>
+                                </li>
+                                <li>
+                                    <a href="card.html">Cards</a>
+                                </li>
+                                <li>
+                                    <a href="alert.html">Alerts</a>
+                                </li>
+                                <li>
+                                    <a href="progress-bar.html">Progress Bars</a>
+                                </li>
+                                <li>
+                                    <a href="modal.html">Modals</a>
+                                </li>
+                                <li>
+                                    <a href="switch.html">Switchs</a>
+                                </li>
+                                <li>
+                                    <a href="grid.html">Grids</a>
+                                </li>
+                                <li>
+                                    <a href="fontawesome.html">Fontawesome Icon</a>
+                                </li>
+                                <li>
+                                    <a href="typo.html">Typography</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
             </div>
-        </nav>
+        </aside>
+        <!-- END MENU SIDEBAR-->
+        <!-- PAGE CONTAINER-->
+        <div class="page-container">
+            <!-- HEADER DESKTOP-->
+            <header class="header-desktop">
+                <div class="section__content section__content--p30">
+                    <div class="container-fluid">
+                        <div class="header-wrap">
+                            <form class="form-header" action="" method="POST">
+                                <input class="au-input au-input--xl" type="text" name="search" placeholder="Search for datas &amp; reports..." />
+                                <button class="au-btn--submit" type="submit">
+                                    <i class="zmdi zmdi-search"></i>
+                                </button>
+                            </form>
+                            <div class="header-button">
+                                <div class="noti-wrap">
+                                    <div class="noti__item js-item-menu">
+                                        <i class="zmdi zmdi-comment-more"></i>
+                                        <span class="quantity">1</span>
+                                        <div class="mess-dropdown js-dropdown">
+                                            <div class="mess__title">
+                                                <p>You have 2 news message</p>
+                                            </div>
+                                            <div class="mess__item">
+                                                <div class="image img-cir img-40">
+                                                    <img src="images/icon/avatar-06.jpg" alt="Michelle Moreno" />
+                                                </div>
+                                                <div class="content">
+                                                    <h6>Michelle Moreno</h6>
+                                                    <p>Have sent a photo</p>
+                                                    <span class="time">3 min ago</span>
+                                                </div>
+                                            </div>
+                                            <div class="mess__item">
+                                                <div class="image img-cir img-40">
+                                                    <img src="images/icon/avatar-04.jpg" alt="Diane Myers" />
+                                                </div>
+                                                <div class="content">
+                                                    <h6>Diane Myers</h6>
+                                                    <p>You are now connected on message</p>
+                                                    <span class="time">Yesterday</span>
+                                                </div>
+                                            </div>
+                                            <div class="mess__footer">
+                                                <a href="#">View all messages</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="noti__item js-item-menu">
+                                        <i class="zmdi zmdi-email"></i>
+                                        <span class="quantity">1</span>
+                                        <div class="email-dropdown js-dropdown">
+                                            <div class="email__title">
+                                                <p>You have 3 New Emails</p>
+                                            </div>
+                                            <div class="email__item">
+                                                <div class="image img-cir img-40">
+                                                    <img src="images/icon/avatar-06.jpg" alt="Cynthia Harvey" />
+                                                </div>
+                                                <div class="content">
+                                                    <p>Meeting about new dashboard...</p>
+                                                    <span>Cynthia Harvey, 3 min ago</span>
+                                                </div>
+                                            </div>
+                                            <div class="email__item">
+                                                <div class="image img-cir img-40">
+                                                    <img src="images/icon/avatar-05.jpg" alt="Cynthia Harvey" />
+                                                </div>
+                                                <div class="content">
+                                                    <p>Meeting about new dashboard...</p>
+                                                    <span>Cynthia Harvey, Yesterday</span>
+                                                </div>
+                                            </div>
+                                            <div class="email__item">
+                                                <div class="image img-cir img-40">
+                                                    <img src="images/icon/avatar-04.jpg" alt="Cynthia Harvey" />
+                                                </div>
+                                                <div class="content">
+                                                    <p>Meeting about new dashboard...</p>
+                                                    <span>Cynthia Harvey, April 12,,2018</span>
+                                                </div>
+                                            </div>
+                                            <div class="email__footer">
+                                                <a href="#">See all emails</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="noti__item js-item-menu">
+                                        <i class="zmdi zmdi-notifications"></i>
+                                        <span class="quantity">3</span>
+                                        <div class="notifi-dropdown js-dropdown">
+                                            <div class="notifi__title">
+                                                <p>You have 3 Notifications</p>
+                                            </div>
+                                            <div class="notifi__item">
+                                                <div class="bg-c1 img-cir img-40">
+                                                    <i class="zmdi zmdi-email-open"></i>
+                                                </div>
+                                                <div class="content">
+                                                    <p>You got a email notification</p>
+                                                    <span class="date">April 12, 2018 06:50</span>
+                                                </div>
+                                            </div>
+                                            <div class="notifi__item">
+                                                <div class="bg-c2 img-cir img-40">
+                                                    <i class="zmdi zmdi-account-box"></i>
+                                                </div>
+                                                <div class="content">
+                                                    <p>Your account has been blocked</p>
+                                                    <span class="date">April 12, 2018 06:50</span>
+                                                </div>
+                                            </div>
+                                            <div class="notifi__item">
+                                                <div class="bg-c3 img-cir img-40">
+                                                    <i class="zmdi zmdi-file-text"></i>
+                                                </div>
+                                                <div class="content">
+                                                    <p>You got a new file</p>
+                                                    <span class="date">April 12, 2018 06:50</span>
+                                                </div>
+                                            </div>
+                                            <div class="notifi__footer">
+                                                <a href="#">All notifications</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="account-wrap">
+                                    <div class="account-item clearfix js-item-menu">
+                                        <div class="image">
+                                            <img src="~/img/avatar-big-01.jpg" alt="John Doe" />
+                                        </div>
+                                        <div class="content">
+                                            <a class="js-acc-btn" href="#">john doe</a>
+                                        </div>
+                                        <div class="account-dropdown js-dropdown">
+                                            <div class="info clearfix">
+                                                <div class="image">
+                                                    <a href="#">
+                                                        <img src="images/icon/avatar-01.jpg" alt="John Doe" />
+                                                    </a>
+                                                </div>
+                                                <div class="content">
+                                                    <h5 class="name">
+                                                        <a href="#">john doe</a>
+                                                    </h5>
+                                                    <span class="email">johndoe@example.com</span>
+                                                </div>
+                                            </div>
+                                            <div class="account-dropdown__body">
+                                                <div class="account-dropdown__item">
+                                                    <a href="#">
+                                                        <i class="zmdi zmdi-account"></i>Account
+                                                    </a>
+                                                </div>
+                                                <div class="account-dropdown__item">
+                                                    <a href="#">
+                                                        <i class="zmdi zmdi-settings"></i>Setting
+                                                    </a>
+                                                </div>
+                                                <div class="account-dropdown__item">
+                                                    <a href="#">
+                                                        <i class="zmdi zmdi-money-box"></i>Billing
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="account-dropdown__footer">
+                                                <a href="#">
+                                                    <i class="zmdi zmdi-power"></i>Logout
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!-- Jquery JS-->
+            <script src="~/Vendor/jquery/jquery-3.2.1.min.js"></script>
+            <!-- Bootstrap JS-->
+            <script src="~/Vendor/bootstrap-4.1/popper.min.js"></script>
+            <script src="~/Vendor/bootstrap-4.1/bootstrap.min.js"></script>
+            <!-- Vendor JS       -->
+            <script src="~/Vendor/slick/slick.min.js"></script>
 
-    </div>
-    <!-- page-wrapper -->
-    <!-- using online scripts -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
-            integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
-            integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
-    </script>
+            <script src="~/Vendor/wow/wow.min.js"></script>
+            <script src="~/Vendor/animsition/animsition.min.js"></script>
+            <script src="~/Vendor/bootstrap-progressbar/bootstrap-progressbar.min.js"></script>
 
-    <!-- using local scripts -->
-    <script src="~/Custom/jquery.mCustomScrollbar.concat.min.js"></script>
-    <!-- <script src="../node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="../node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    ></script> -->
-    <script src="~/Custom/jquery.mCustomScrollbar.concat.min.js"></script>
-    <script src="~/Vendor/popper.js/dist/popper.min.js"></script>
-    <script src="~/Vendor/jquery/dist/jquery.min.js"></script>
-    <script src="~/Vendor/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="~/js/main.js"></script>
-    <div>
-        @RenderBody()
-    </div>
+            <script src="~/Vendor/counter-up/jquery.waypoints.min.js"></script>
+            <script src="~/Vendor/counter-up/jquery.counterup.min.js"></script>
+
+            <script src="~/Vendor/circle-progress/circle-progress.min.js"></script>
+            <script src="~/Vendor/perfect-scrollbar/perfect-scrollbar.js"></script>
+            <script src="~/Vendor/chartjs/Chart.bundle.min.js"></script>
+            <script src="~/Vendor/select2/select2.min.js"></script>
+
+            <!-- Main JS-->
+            <script src="~/js/main.js"></script>
+            <!-- HEADER DESKTOP-->
+            <div>
+                @RenderBody()
+            </div>
+        </div>
+        </div>
 </body>
-
 </html>
