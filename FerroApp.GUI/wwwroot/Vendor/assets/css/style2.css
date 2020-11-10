@@ -1,4 +1,4 @@
-/* This css file is to over write bootstrap css
+﻿/* This css file is to over write bootstrap css
 --------------------------------------------------------- /
 * Theme Name: Sufee-Admin Admin Template
 * Theme URI: http://demos.jeweltheme.com/Sufee-Admin/
@@ -1268,10 +1268,10 @@ body.open .navbar .navbar-brand.hidden {
   transition: all 0.35s ease; }
   .right-panel .breadcrumbs {
     background-color: #fff;
-    display: inline-block;
+    display: inline;
     margin-top: 0;
     padding: 0 5px;
-    width: 100%; }
+    width: auto; }
     .right-panel .breadcrumbs .col-lg-8 .page-header {
       float: left; }
   .right-panel .page-header {
@@ -1299,7 +1299,7 @@ body.open .navbar .navbar-brand.hidden {
   clear: both;
   display: inline-block;
   padding: 15px 20px 13px;
-  width: 100%; }
+  width: auto; }
 
 .open .right-panel {
   margin-left: -210px; }
@@ -2405,7 +2405,7 @@ header .form-inline {
   .menutoggle {
     display: none; }
   .right-panel {
-    display: block; }
+    display: flex; }
     .right-panel header.header {
       padding: 5px 10px 1px 5px; }
       .right-panel header.header div[class*="col"] {
