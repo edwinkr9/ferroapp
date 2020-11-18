@@ -1,0 +1,9 @@
+C:\Users\edwin\Desktop\Proyecto_FerroApp\FerroApp\FerroApp.Domain\bin\Debug\netcoreapp3.1\FerroApp.Domain.deps.json
+C:\Users\edwin\Desktop\Proyecto_FerroApp\FerroApp\FerroApp.Domain\bin\Debug\netcoreapp3.1\FerroApp.Domain.dll
+C:\Users\edwin\Desktop\Proyecto_FerroApp\FerroApp\FerroApp.Domain\bin\Debug\netcoreapp3.1\FerroApp.Domain.pdb
+C:\Users\edwin\Desktop\Proyecto_FerroApp\FerroApp\FerroApp.Domain\obj\Debug\netcoreapp3.1\FerroApp.Domain.csprojAssemblyReference.cache
+C:\Users\edwin\Desktop\Proyecto_FerroApp\FerroApp\FerroApp.Domain\obj\Debug\netcoreapp3.1\FerroApp.Domain.AssemblyInfoInputs.cache
+C:\Users\edwin\Desktop\Proyecto_FerroApp\FerroApp\FerroApp.Domain\obj\Debug\netcoreapp3.1\FerroApp.Domain.AssemblyInfo.cs
+C:\Users\edwin\Desktop\Proyecto_FerroApp\FerroApp\FerroApp.Domain\obj\Debug\netcoreapp3.1\FerroApp.Domain.csproj.CoreCompileInputs.cache
+C:\Users\edwin\Desktop\Proyecto_FerroApp\FerroApp\FerroApp.Domain\obj\Debug\netcoreapp3.1\FerroApp.Domain.dll
+C:\Users\edwin\Desktop\Proyecto_FerroApp\FerroApp\FerroApp.Domain\obj\Debug\netcoreapp3.1\FerroApp.Domain.pdb

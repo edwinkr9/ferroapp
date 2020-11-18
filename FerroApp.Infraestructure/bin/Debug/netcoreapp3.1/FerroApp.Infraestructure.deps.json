@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "FerroApp.Infraestructure/1.0.0": {
+        "dependencies": {
+          "FerroApp.Domain": "1.0.0"
+        },
+        "runtime": {
+          "FerroApp.Infraestructure.dll": {}
+        }
+      },
+      "FerroApp.Domain/1.0.0": {
+        "runtime": {
+          "FerroApp.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FerroApp.Infraestructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FerroApp.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
