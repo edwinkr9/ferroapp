@@ -1,12 +1,19 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 using FerroApp.Domain.Interfaces;
 using FerroApp.Infraestructure.Data;
+using FerroApp.Infraestructure.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using FerroApp.Infraestructure.Repositories;
+using Microsoft.Extensions.Logging;
 
 namespace FerroApp.Api
 {
@@ -23,13 +30,10 @@ namespace FerroApp.Api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-
-            //services.AddTransient<IFerroAppRepository, ProductoRepository>();
             services.AddDbContext<FerrAppContext>(options =>
- options.UseSqlServer(Configuration.GetConnectionString("FerroAppConection"))
-);
-            services.AddTransient<IFerroAppRepository, FerroAppRepository>();
-
+            options.UseSqlServer(Configuration.GetConnectionString("FerrAppConnection"))
+            );
+            services.AddTransient<IProductoRepository, ProductoRepository>();
 
         }
 

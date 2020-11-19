@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\carna\\Documents\\Repositorios\\ferroapp\\FerroApp.GUI\\FerroApp.GUI.csproj": {}
+    "C:\\Users\\carna\\Desktop\\UTM\\AWOS\\PROYECTO\\ferroapp-master\\FerroApp.GUI\\FerroApp.GUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\carna\\Documents\\Repositorios\\ferroapp\\FerroApp.GUI\\FerroApp.GUI.csproj": {
+    "C:\\Users\\carna\\Desktop\\UTM\\AWOS\\PROYECTO\\ferroapp-master\\FerroApp.GUI\\FerroApp.GUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\carna\\Documents\\Repositorios\\ferroapp\\FerroApp.GUI\\FerroApp.GUI.csproj",
+        "projectUniqueName": "C:\\Users\\carna\\Desktop\\UTM\\AWOS\\PROYECTO\\ferroapp-master\\FerroApp.GUI\\FerroApp.GUI.csproj",
         "projectName": "FerroApp.GUI",
-        "projectPath": "C:\\Users\\carna\\Documents\\Repositorios\\ferroapp\\FerroApp.GUI\\FerroApp.GUI.csproj",
+        "projectPath": "C:\\Users\\carna\\Desktop\\UTM\\AWOS\\PROYECTO\\ferroapp-master\\FerroApp.GUI\\FerroApp.GUI.csproj",
         "packagesPath": "C:\\Users\\carna\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\carna\\Documents\\Repositorios\\ferroapp\\FerroApp.GUI\\obj\\",
+        "outputPath": "C:\\Users\\carna\\Desktop\\UTM\\AWOS\\PROYECTO\\ferroapp-master\\FerroApp.GUI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\carna\\AppData\\Roaming\\NuGet\\NuGet.Config",
