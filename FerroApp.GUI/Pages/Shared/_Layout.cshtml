@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] FerroApp</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css'>
     <link rel="stylesheet" href="~/css/Layouteindex.css" />
 </head>
 <body>
@@ -13,13 +15,16 @@
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-color" style="background-color:#263c7e;">
             <div class="container">
                 <div class="container">
-                    <a class="navbar-brand" href="#">
+                    <a class="navbar-brand" href="/Index">
                         <img class="img-fluid" width="290" src="~/img/LOGOTIPO GRUPO SAN MARTIN-01_edited.webp" />
                     </a>
                 </div>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+                <div class="container d-flex justify-content-center mt-100">
+                    <div class="input-group-overlay d-none d-lg-flex mx-4">
+                        <input class="form-control appended-form-control" type="text" placeholder="Search for products">
+                        <div class="input-group-append-overlay"><span class="input-group-text"><i class="fas fa-search"></i></span></div>
+                    </div>
+                </div>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav">
                         <li class="nav-item active">
@@ -29,10 +34,10 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Servicios</a>
+                            <a class="nav-link" href="~/AdminPages/Cart">Carrito</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="~/AdminPages/Admin">Panel</a>
+                            <a class="nav-link" href="~/AdminPages/Admin">Cuenta</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/Login">Login</a>
@@ -54,12 +59,15 @@
         <div class="container">
             <p class="m-0 text-center text-white">Copyright &copy; FerroApp 2020</p>
         </div>-->
-        <!-- /.container -->
+    <!-- /.container -->
     <!--</footer>-->
-
     <!-- Bootstrap core JavaScript -->
     <script src="~/Vendor/jquery/jquery.min.js"></script>
     <script src="~/Vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+
 
     @RenderSection("Scripts", required: false)
 </body>
