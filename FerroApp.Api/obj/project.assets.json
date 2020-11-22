@@ -5796,19 +5796,27 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\carna\\.nuget\\packages\\": {}
+    "C:\\Users\\edwin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< Updated upstream
       "projectUniqueName": "C:\\Users\\carna\\Desktop\\UTM\\AWOS\\PROYECTO\\ferroapp-master\\FerroApp.Api\\FerroApp.Api.csproj",
       "projectName": "FerroApp.Api",
       "projectPath": "C:\\Users\\carna\\Desktop\\UTM\\AWOS\\PROYECTO\\ferroapp-master\\FerroApp.Api\\FerroApp.Api.csproj",
       "packagesPath": "C:\\Users\\carna\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\carna\\Desktop\\UTM\\AWOS\\PROYECTO\\ferroapp-master\\FerroApp.Api\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\edwin\\Desktop\\Proyecto_FerroApp\\FerroApp\\FerroApp.Api\\FerroApp.Api.csproj",
+      "projectName": "FerroApp.Api",
+      "projectPath": "C:\\Users\\edwin\\Desktop\\Proyecto_FerroApp\\FerroApp\\FerroApp.Api\\FerroApp.Api.csproj",
+      "packagesPath": "C:\\Users\\edwin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\edwin\\Desktop\\Proyecto_FerroApp\\FerroApp\\FerroApp.Api\\obj\\",
+>>>>>>> Stashed changes
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\carna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\edwin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5821,11 +5829,19 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
+<<<<<<< Updated upstream
             "C:\\Users\\carna\\Desktop\\UTM\\AWOS\\PROYECTO\\ferroapp-master\\FerroApp.Domain\\FerroApp.Domain.csproj": {
               "projectPath": "C:\\Users\\carna\\Desktop\\UTM\\AWOS\\PROYECTO\\ferroapp-master\\FerroApp.Domain\\FerroApp.Domain.csproj"
             },
             "C:\\Users\\carna\\Desktop\\UTM\\AWOS\\PROYECTO\\ferroapp-master\\FerroApp.Infraestructure\\FerroApp.Infraestructure.csproj": {
               "projectPath": "C:\\Users\\carna\\Desktop\\UTM\\AWOS\\PROYECTO\\ferroapp-master\\FerroApp.Infraestructure\\FerroApp.Infraestructure.csproj"
+=======
+            "C:\\Users\\edwin\\Desktop\\Proyecto_FerroApp\\FerroApp\\FerroApp.Domain\\FerroApp.Domain.csproj": {
+              "projectPath": "C:\\Users\\edwin\\Desktop\\Proyecto_FerroApp\\FerroApp\\FerroApp.Domain\\FerroApp.Domain.csproj"
+            },
+            "C:\\Users\\edwin\\Desktop\\Proyecto_FerroApp\\FerroApp\\FerroApp.Infraestructure\\FerroApp.Infraestructure.csproj": {
+              "projectPath": "C:\\Users\\edwin\\Desktop\\Proyecto_FerroApp\\FerroApp\\FerroApp.Infraestructure\\FerroApp.Infraestructure.csproj"
+>>>>>>> Stashed changes
             }
           }
         }
