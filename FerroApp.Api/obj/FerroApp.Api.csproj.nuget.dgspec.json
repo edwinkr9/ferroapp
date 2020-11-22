@@ -1,6 +1,19 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< Updated upstream
+    "C:\\Users\\carna\\Desktop\\UTM\\AWOS\\PROYECTO\\ferroapp-master\\FerroApp.Api\\FerroApp.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\carna\\Desktop\\UTM\\AWOS\\PROYECTO\\ferroapp-master\\FerroApp.Api\\FerroApp.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\carna\\Desktop\\UTM\\AWOS\\PROYECTO\\ferroapp-master\\FerroApp.Api\\FerroApp.Api.csproj",
+        "projectName": "FerroApp.Api",
+        "projectPath": "C:\\Users\\carna\\Desktop\\UTM\\AWOS\\PROYECTO\\ferroapp-master\\FerroApp.Api\\FerroApp.Api.csproj",
+        "packagesPath": "C:\\Users\\carna\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\carna\\Desktop\\UTM\\AWOS\\PROYECTO\\ferroapp-master\\FerroApp.Api\\obj\\",
+=======
     "C:\\Users\\edwin\\Desktop\\Proyecto_FerroApp\\FerroApp\\FerroApp.Api\\FerroApp.Api.csproj": {}
   },
   "projects": {
@@ -12,6 +25,7 @@
         "projectPath": "C:\\Users\\edwin\\Desktop\\Proyecto_FerroApp\\FerroApp\\FerroApp.Api\\FerroApp.Api.csproj",
         "packagesPath": "C:\\Users\\edwin\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\edwin\\Desktop\\Proyecto_FerroApp\\FerroApp\\FerroApp.Api\\obj\\",
+>>>>>>> Stashed changes
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\edwin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,11 +41,19 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
+<<<<<<< Updated upstream
+              "C:\\Users\\carna\\Desktop\\UTM\\AWOS\\PROYECTO\\ferroapp-master\\FerroApp.Domain\\FerroApp.Domain.csproj": {
+                "projectPath": "C:\\Users\\carna\\Desktop\\UTM\\AWOS\\PROYECTO\\ferroapp-master\\FerroApp.Domain\\FerroApp.Domain.csproj"
+              },
+              "C:\\Users\\carna\\Desktop\\UTM\\AWOS\\PROYECTO\\ferroapp-master\\FerroApp.Infraestructure\\FerroApp.Infraestructure.csproj": {
+                "projectPath": "C:\\Users\\carna\\Desktop\\UTM\\AWOS\\PROYECTO\\ferroapp-master\\FerroApp.Infraestructure\\FerroApp.Infraestructure.csproj"
+=======
               "C:\\Users\\edwin\\Desktop\\Proyecto_FerroApp\\FerroApp\\FerroApp.Domain\\FerroApp.Domain.csproj": {
                 "projectPath": "C:\\Users\\edwin\\Desktop\\Proyecto_FerroApp\\FerroApp\\FerroApp.Domain\\FerroApp.Domain.csproj"
               },
               "C:\\Users\\edwin\\Desktop\\Proyecto_FerroApp\\FerroApp\\FerroApp.Infraestructure\\FerroApp.Infraestructure.csproj": {
                 "projectPath": "C:\\Users\\edwin\\Desktop\\Proyecto_FerroApp\\FerroApp\\FerroApp.Infraestructure\\FerroApp.Infraestructure.csproj"
+>>>>>>> Stashed changes
               }
             }
           }
@@ -44,6 +66,14 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -66,6 +96,16 @@
         }
       }
     },
+<<<<<<< Updated upstream
+    "C:\\Users\\carna\\Desktop\\UTM\\AWOS\\PROYECTO\\ferroapp-master\\FerroApp.Domain\\FerroApp.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\carna\\Desktop\\UTM\\AWOS\\PROYECTO\\ferroapp-master\\FerroApp.Domain\\FerroApp.Domain.csproj",
+        "projectName": "FerroApp.Domain",
+        "projectPath": "C:\\Users\\carna\\Desktop\\UTM\\AWOS\\PROYECTO\\ferroapp-master\\FerroApp.Domain\\FerroApp.Domain.csproj",
+        "packagesPath": "C:\\Users\\carna\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\carna\\Desktop\\UTM\\AWOS\\PROYECTO\\ferroapp-master\\FerroApp.Domain\\obj\\",
+=======
     "C:\\Users\\edwin\\Desktop\\Proyecto_FerroApp\\FerroApp\\FerroApp.Domain\\FerroApp.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -74,6 +114,7 @@
         "projectPath": "C:\\Users\\edwin\\Desktop\\Proyecto_FerroApp\\FerroApp\\FerroApp.Domain\\FerroApp.Domain.csproj",
         "packagesPath": "C:\\Users\\edwin\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\edwin\\Desktop\\Proyecto_FerroApp\\FerroApp\\FerroApp.Domain\\obj\\",
+>>>>>>> Stashed changes
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\edwin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -118,6 +159,16 @@
         }
       }
     },
+<<<<<<< Updated upstream
+    "C:\\Users\\carna\\Desktop\\UTM\\AWOS\\PROYECTO\\ferroapp-master\\FerroApp.Infraestructure\\FerroApp.Infraestructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\carna\\Desktop\\UTM\\AWOS\\PROYECTO\\ferroapp-master\\FerroApp.Infraestructure\\FerroApp.Infraestructure.csproj",
+        "projectName": "FerroApp.Infraestructure",
+        "projectPath": "C:\\Users\\carna\\Desktop\\UTM\\AWOS\\PROYECTO\\ferroapp-master\\FerroApp.Infraestructure\\FerroApp.Infraestructure.csproj",
+        "packagesPath": "C:\\Users\\carna\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\carna\\Desktop\\UTM\\AWOS\\PROYECTO\\ferroapp-master\\FerroApp.Infraestructure\\obj\\",
+=======
     "C:\\Users\\edwin\\Desktop\\Proyecto_FerroApp\\FerroApp\\FerroApp.Infraestructure\\FerroApp.Infraestructure.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -126,6 +177,7 @@
         "projectPath": "C:\\Users\\edwin\\Desktop\\Proyecto_FerroApp\\FerroApp\\FerroApp.Infraestructure\\FerroApp.Infraestructure.csproj",
         "packagesPath": "C:\\Users\\edwin\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\edwin\\Desktop\\Proyecto_FerroApp\\FerroApp\\FerroApp.Infraestructure\\obj\\",
+>>>>>>> Stashed changes
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\edwin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -141,8 +193,13 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
+<<<<<<< Updated upstream
+              "C:\\Users\\carna\\Desktop\\UTM\\AWOS\\PROYECTO\\ferroapp-master\\FerroApp.Domain\\FerroApp.Domain.csproj": {
+                "projectPath": "C:\\Users\\carna\\Desktop\\UTM\\AWOS\\PROYECTO\\ferroapp-master\\FerroApp.Domain\\FerroApp.Domain.csproj"
+=======
               "C:\\Users\\edwin\\Desktop\\Proyecto_FerroApp\\FerroApp\\FerroApp.Domain\\FerroApp.Domain.csproj": {
                 "projectPath": "C:\\Users\\edwin\\Desktop\\Proyecto_FerroApp\\FerroApp\\FerroApp.Domain\\FerroApp.Domain.csproj"
+>>>>>>> Stashed changes
               }
             }
           }
@@ -155,6 +212,18 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

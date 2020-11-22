@@ -7,3 +7,12 @@ C:\Users\edwin\Desktop\Proyecto_FerroApp\FerroApp\FerroApp.Domain\obj\Debug\netc
 C:\Users\edwin\Desktop\Proyecto_FerroApp\FerroApp\FerroApp.Domain\obj\Debug\netcoreapp3.1\FerroApp.Domain.csproj.CoreCompileInputs.cache
 C:\Users\edwin\Desktop\Proyecto_FerroApp\FerroApp\FerroApp.Domain\obj\Debug\netcoreapp3.1\FerroApp.Domain.dll
 C:\Users\edwin\Desktop\Proyecto_FerroApp\FerroApp\FerroApp.Domain\obj\Debug\netcoreapp3.1\FerroApp.Domain.pdb
+C:\Users\carna\Desktop\UTM\AWOS\PROYECTO\ferroapp-master\FerroApp.Domain\bin\Debug\netcoreapp3.1\FerroApp.Domain.deps.json
+C:\Users\carna\Desktop\UTM\AWOS\PROYECTO\ferroapp-master\FerroApp.Domain\bin\Debug\netcoreapp3.1\FerroApp.Domain.dll
+C:\Users\carna\Desktop\UTM\AWOS\PROYECTO\ferroapp-master\FerroApp.Domain\bin\Debug\netcoreapp3.1\FerroApp.Domain.pdb
+C:\Users\carna\Desktop\UTM\AWOS\PROYECTO\ferroapp-master\FerroApp.Domain\obj\Debug\netcoreapp3.1\FerroApp.Domain.csprojAssemblyReference.cache
+C:\Users\carna\Desktop\UTM\AWOS\PROYECTO\ferroapp-master\FerroApp.Domain\obj\Debug\netcoreapp3.1\FerroApp.Domain.AssemblyInfoInputs.cache
+C:\Users\carna\Desktop\UTM\AWOS\PROYECTO\ferroapp-master\FerroApp.Domain\obj\Debug\netcoreapp3.1\FerroApp.Domain.AssemblyInfo.cs
+C:\Users\carna\Desktop\UTM\AWOS\PROYECTO\ferroapp-master\FerroApp.Domain\obj\Debug\netcoreapp3.1\FerroApp.Domain.csproj.CoreCompileInputs.cache
+C:\Users\carna\Desktop\UTM\AWOS\PROYECTO\ferroapp-master\FerroApp.Domain\obj\Debug\netcoreapp3.1\FerroApp.Domain.dll
+C:\Users\carna\Desktop\UTM\AWOS\PROYECTO\ferroapp-master\FerroApp.Domain\obj\Debug\netcoreapp3.1\FerroApp.Domain.pdb
