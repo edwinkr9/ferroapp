@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uXnFtTBYwyBYtTmXrbg7l4l+LWSG6Eq7QqO6ceZa+5iw9RP32oU2ZDz8vFGNfXNU/p1SLoatXLO9jvr2oY2+iw==",
+  "dgSpecHash": "ACUts/e1+dDNl31jWs2LiC1nbneTEMxapHXOcbY1Y0Jyt9SYSFMXUNPLjUqx94Q2i1dITMN1qMDiBmTpSyrmfg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\carna\\Desktop\\UTM\\AWOS\\PROYECTO\\ferroapp-master\\FerroApp.Domain\\FerroApp.Domain.csproj",
+  "projectFilePath": "C:\\Users\\edwin\\Desktop\\Proyecto_FerroApp\\FerroApp\\FerroApp.Domain\\FerroApp.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

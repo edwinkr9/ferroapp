@@ -45,3 +45,4 @@ C:\Users\edwin\Desktop\Proyecto_FerroApp\FerroApp\FerroApp.GUI\obj\Debug\netcore
 C:\Users\edwin\Desktop\Proyecto_FerroApp\FerroApp\FerroApp.GUI\obj\Debug\netcoreapp3.1\Razor\Pages\AdminPages\ModifyProduct.cshtml.g.cs
 C:\Users\edwin\Desktop\Proyecto_FerroApp\FerroApp\FerroApp.GUI\obj\Debug\netcoreapp3.1\Razor\Pages\AdminPages\AddManager.cshtml.g.cs
 C:\Users\edwin\Desktop\Proyecto_FerroApp\FerroApp\FerroApp.GUI\obj\Debug\netcoreapp3.1\Razor\Pages\AdminPages\ModifyManager.cshtml.g.cs
+C:\Users\edwin\Desktop\Proyecto_FerroApp\FerroApp\FerroApp.GUI\obj\Debug\netcoreapp3.1\Razor\Pages\Register.cshtml.g.cs

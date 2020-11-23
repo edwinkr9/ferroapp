@@ -13,19 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< Updated upstream
-      "projectUniqueName": "C:\\Users\\carna\\Desktop\\UTM\\AWOS\\PROYECTO\\ferroapp-master\\FerroApp.Domain\\FerroApp.Domain.csproj",
-      "projectName": "FerroApp.Domain",
-      "projectPath": "C:\\Users\\carna\\Desktop\\UTM\\AWOS\\PROYECTO\\ferroapp-master\\FerroApp.Domain\\FerroApp.Domain.csproj",
-      "packagesPath": "C:\\Users\\carna\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\carna\\Desktop\\UTM\\AWOS\\PROYECTO\\ferroapp-master\\FerroApp.Domain\\obj\\",
-=======
       "projectUniqueName": "C:\\Users\\edwin\\Desktop\\Proyecto_FerroApp\\FerroApp\\FerroApp.Domain\\FerroApp.Domain.csproj",
       "projectName": "FerroApp.Domain",
       "projectPath": "C:\\Users\\edwin\\Desktop\\Proyecto_FerroApp\\FerroApp\\FerroApp.Domain\\FerroApp.Domain.csproj",
       "packagesPath": "C:\\Users\\edwin\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\edwin\\Desktop\\Proyecto_FerroApp\\FerroApp\\FerroApp.Domain\\obj\\",
->>>>>>> Stashed changes
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\edwin\\AppData\\Roaming\\NuGet\\NuGet.Config",
