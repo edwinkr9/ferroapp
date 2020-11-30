@@ -1,45 +1,26 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {
-      "FerroApp.Domain/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "compile": {
-          "bin/placeholder/FerroApp.Domain.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/FerroApp.Domain.dll": {}
-        }
-      }
-    }
+    ".NETCoreApp,Version=v3.1": {}
   },
-  "libraries": {
-    "FerroApp.Domain/1.0.0": {
-      "type": "project",
-      "path": "../FerroApp.Domain/FerroApp.Domain.csproj",
-      "msbuildProject": "../FerroApp.Domain/FerroApp.Domain.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": [
-      "FerroApp.Domain >= 1.0.0"
-    ]
+    ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\carna\\.nuget\\packages\\": {}
+    "C:\\Users\\edwin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\carna\\Documents\\Repositorios\\ferroapp\\FerroApp.Application\\FerroApp.Application.csproj",
+      "projectUniqueName": "C:\\Users\\edwin\\Desktop\\Proyecto_FerroApp\\FerroApp\\FerroApp.Application\\FerroApp.Application.csproj",
       "projectName": "FerroApp.Application",
-      "projectPath": "C:\\Users\\carna\\Documents\\Repositorios\\ferroapp\\FerroApp.Application\\FerroApp.Application.csproj",
-      "packagesPath": "C:\\Users\\carna\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\carna\\Documents\\Repositorios\\ferroapp\\FerroApp.Application\\obj\\",
+      "projectPath": "C:\\Users\\edwin\\Desktop\\Proyecto_FerroApp\\FerroApp\\FerroApp.Application\\FerroApp.Application.csproj",
+      "packagesPath": "C:\\Users\\edwin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\edwin\\Desktop\\Proyecto_FerroApp\\FerroApp\\FerroApp.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\carna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\edwin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -51,11 +32,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {
-            "C:\\Users\\carna\\Documents\\Repositorios\\ferroapp\\FerroApp.Domain\\FerroApp.Domain.csproj": {
-              "projectPath": "C:\\Users\\carna\\Documents\\Repositorios\\ferroapp\\FerroApp.Domain\\FerroApp.Domain.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

@@ -1,0 +1,9 @@
+C:\Users\carna\Desktop\UTM\AWOS\PROYECTO\ferroapp-master\ferroapp-master\FerroApp.Application\bin\Debug\netcoreapp3.1\FerroApp.Application.deps.json
+C:\Users\carna\Desktop\UTM\AWOS\PROYECTO\ferroapp-master\ferroapp-master\FerroApp.Application\bin\Debug\netcoreapp3.1\FerroApp.Application.dll
+C:\Users\carna\Desktop\UTM\AWOS\PROYECTO\ferroapp-master\ferroapp-master\FerroApp.Application\bin\Debug\netcoreapp3.1\FerroApp.Application.pdb
+C:\Users\carna\Desktop\UTM\AWOS\PROYECTO\ferroapp-master\ferroapp-master\FerroApp.Application\obj\Debug\netcoreapp3.1\FerroApp.Application.csprojAssemblyReference.cache
+C:\Users\carna\Desktop\UTM\AWOS\PROYECTO\ferroapp-master\ferroapp-master\FerroApp.Application\obj\Debug\netcoreapp3.1\FerroApp.Application.AssemblyInfoInputs.cache
+C:\Users\carna\Desktop\UTM\AWOS\PROYECTO\ferroapp-master\ferroapp-master\FerroApp.Application\obj\Debug\netcoreapp3.1\FerroApp.Application.AssemblyInfo.cs
+C:\Users\carna\Desktop\UTM\AWOS\PROYECTO\ferroapp-master\ferroapp-master\FerroApp.Application\obj\Debug\netcoreapp3.1\FerroApp.Application.csproj.CoreCompileInputs.cache
+C:\Users\carna\Desktop\UTM\AWOS\PROYECTO\ferroapp-master\ferroapp-master\FerroApp.Application\obj\Debug\netcoreapp3.1\FerroApp.Application.dll
+C:\Users\carna\Desktop\UTM\AWOS\PROYECTO\ferroapp-master\ferroapp-master\FerroApp.Application\obj\Debug\netcoreapp3.1\FerroApp.Application.pdb

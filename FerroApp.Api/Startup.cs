@@ -2,9 +2,11 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AutoMapper;
 using FerroApp.Domain.Interfaces;
 using FerroApp.Infraestructure.Data;
 using FerroApp.Infraestructure.Repositories;
+using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -29,11 +31,17 @@ namespace FerroApp.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
             services.AddControllers();
             services.AddDbContext<FerrAppContext>(options =>
             options.UseSqlServer(Configuration.GetConnectionString("FerrAppConnection"))
             );
             services.AddTransient<IProductoRepository, ProductoRepository>();
+            services.AddTransient<IGerenteRepository, GerenteRepository>();
+            services.AddTransient<IClienteRepository, ClienteRepository>();
+
+            services.AddMvc().AddFluentValidation(options =>
+            options.RegisterValidatorsFromAssemblies(AppDomain.CurrentDomain.GetAssemblies()));
 
         }
 

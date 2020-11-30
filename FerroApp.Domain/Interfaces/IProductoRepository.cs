@@ -13,6 +13,8 @@ namespace FerroApp.Domain.Interfaces
 
         Task AddProducto(Producto producto);
 
+        Task<bool> UpdateProducto(Producto producto);
+        Task<bool> DeleteProducto(int id);
 
 
     }

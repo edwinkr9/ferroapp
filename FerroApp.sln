@@ -11,6 +11,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FerroApp.Api", "FerroApp.Ap
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FerroApp.GUI", "FerroApp.GUI\FerroApp.GUI.csproj", "{4EE45803-90F7-4578-AD07-B95DB37FBB0C}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FerroApp.Application", "FerroApp.Application\FerroApp.Application.csproj", "{A79888A1-5B97-419A-8E51-D14CD598477A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FerroApp.ConsumeApi", "FerroApp.ConsumeApi\FerroApp.ConsumeApi.csproj", "{2DA385F7-F18D-448C-BDDA-1B8509412B69}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{4EE45803-90F7-4578-AD07-B95DB37FBB0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4EE45803-90F7-4578-AD07-B95DB37FBB0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4EE45803-90F7-4578-AD07-B95DB37FBB0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A79888A1-5B97-419A-8E51-D14CD598477A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A79888A1-5B97-419A-8E51-D14CD598477A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A79888A1-5B97-419A-8E51-D14CD598477A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A79888A1-5B97-419A-8E51-D14CD598477A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DA385F7-F18D-448C-BDDA-1B8509412B69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DA385F7-F18D-448C-BDDA-1B8509412B69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DA385F7-F18D-448C-BDDA-1B8509412B69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DA385F7-F18D-448C-BDDA-1B8509412B69}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

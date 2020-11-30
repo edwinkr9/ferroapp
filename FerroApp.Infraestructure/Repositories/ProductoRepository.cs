@@ -35,6 +35,28 @@ namespace FerroApp.Infraestructure.Repositories
             await _context.SaveChangesAsync();
         }
 
+        public async Task<bool> UpdateProducto(Producto producto)
+        {
+            var current = await GetProducto(producto.Codigo);
+            current.Codigo = producto.Codigo;
+            current.Nombre = producto.Nombre;
+            current.Marca = producto.Marca;
+            current.Categoria = producto.Categoria;
+            current.Precio = producto.Precio;
+
+            var rowsUpdate = await _context.SaveChangesAsync();
+            return rowsUpdate > 0;
+        }
+
+        public async Task<bool> DeleteProducto(int id)
+        {
+            var current = await GetProducto(id);
+
+            _context.Productos.Remove(current);
+            var rowsDelete = await _context.SaveChangesAsync();
+            return rowsDelete > 0;
+        }
+
 
         //public async Task<IEnumerable<Producto>> GetProducto()
         //{
