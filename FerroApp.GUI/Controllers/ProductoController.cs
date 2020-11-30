@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 using FerroApp.GUI.Models;
 using FerroApp.GUI.Reponses;
 using Microsoft.AspNetCore.Mvc;
-using Newtonsoft.Json;
 
 namespace FerroApp.GUI.Controllers
 {

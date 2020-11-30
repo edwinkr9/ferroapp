@@ -99,11 +99,11 @@ namespace FerroApp.Infraestructure.Data
                     .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("FK__CarritoCo__PagoT__787EE5A0");
 
-                entity.HasOne(d => d.IdProductoNavigation)
-                    .WithMany(p => p.CarritoCompras)
-                    .HasForeignKey(d => d.IdProducto)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("FK__CarritoCo__IdPro__797309D9");
+                //entity.HasOne(d => d.IdProductoNavigation)
+                //    .WithMany(p => p.CarritoCompras)
+                //    .HasForeignKey(d => d.IdProducto)
+                //    .OnDelete(DeleteBehavior.ClientSetNull)
+                //    .HasConstraintName("FK__CarritoCo__IdPro__797309D9");
             });
 
             //modelBuilder.Entity<Cliente>(entity =>
