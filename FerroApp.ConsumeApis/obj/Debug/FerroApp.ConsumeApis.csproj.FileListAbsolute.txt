@@ -41,3 +41,46 @@ C:\Users\edwin\Desktop\Proyecto_FerroApp\FerroApp\FerroApp.ConsumeApis\bin\Syste
 C:\Users\edwin\Desktop\Proyecto_FerroApp\FerroApp\FerroApp.ConsumeApis\bin\System.Net.Http.Formatting.xml
 C:\Users\edwin\Desktop\Proyecto_FerroApp\FerroApp\FerroApp.ConsumeApis\bin\System.Web.Http.xml
 C:\Users\edwin\Desktop\Proyecto_FerroApp\FerroApp\FerroApp.ConsumeApis\bin\System.Web.Http.WebHost.xml
+C:\Users\carna\Desktop\UTM\AWOS\PROYECTO\ferroapp-master v8 01-12-2020\ferroapp-master\FerroApp.ConsumeApis\obj\Debug\FerroApp.ConsumeApis.csprojAssemblyReference.cache
+C:\Users\carna\Desktop\UTM\AWOS\PROYECTO\ferroapp-master v8 01-12-2020\ferroapp-master\FerroApp.ConsumeApis\obj\Debug\FerroApp.ConsumeApis.dll
+C:\Users\carna\Desktop\UTM\AWOS\PROYECTO\ferroapp-master v8 01-12-2020\ferroapp-master\FerroApp.ConsumeApis\obj\Debug\FerroApp.ConsumeApis.pdb
+C:\Users\carna\Desktop\UTM\AWOS\PROYECTO\ferroapp-master v8 01-12-2020\ferroapp-master\FerroApp.ConsumeApis\obj\Debug\FerroApp.ConsumeApis.csproj.CoreCompileInputs.cache
+C:\Users\carna\Desktop\UTM\AWOS\PROYECTO\ferroapp-master v8 01-12-2020\ferroapp-master\FerroApp.ConsumeApis\bin\FerroApp.ConsumeApis.dll.config
+C:\Users\carna\Desktop\UTM\AWOS\PROYECTO\ferroapp-master v8 01-12-2020\ferroapp-master\FerroApp.ConsumeApis\bin\FerroApp.ConsumeApis.dll
+C:\Users\carna\Desktop\UTM\AWOS\PROYECTO\ferroapp-master v8 01-12-2020\ferroapp-master\FerroApp.ConsumeApis\bin\FerroApp.ConsumeApis.pdb
+C:\Users\carna\Desktop\UTM\AWOS\PROYECTO\ferroapp-master v8 01-12-2020\ferroapp-master\FerroApp.ConsumeApis\bin\Antlr3.Runtime.dll
+C:\Users\carna\Desktop\UTM\AWOS\PROYECTO\ferroapp-master v8 01-12-2020\ferroapp-master\FerroApp.ConsumeApis\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\carna\Desktop\UTM\AWOS\PROYECTO\ferroapp-master v8 01-12-2020\ferroapp-master\FerroApp.ConsumeApis\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\carna\Desktop\UTM\AWOS\PROYECTO\ferroapp-master v8 01-12-2020\ferroapp-master\FerroApp.ConsumeApis\bin\Newtonsoft.Json.dll
+C:\Users\carna\Desktop\UTM\AWOS\PROYECTO\ferroapp-master v8 01-12-2020\ferroapp-master\FerroApp.ConsumeApis\bin\System.Net.Http.Formatting.dll
+C:\Users\carna\Desktop\UTM\AWOS\PROYECTO\ferroapp-master v8 01-12-2020\ferroapp-master\FerroApp.ConsumeApis\bin\System.Web.Helpers.dll
+C:\Users\carna\Desktop\UTM\AWOS\PROYECTO\ferroapp-master v8 01-12-2020\ferroapp-master\FerroApp.ConsumeApis\bin\System.Web.Http.dll
+C:\Users\carna\Desktop\UTM\AWOS\PROYECTO\ferroapp-master v8 01-12-2020\ferroapp-master\FerroApp.ConsumeApis\bin\System.Web.Http.WebHost.dll
+C:\Users\carna\Desktop\UTM\AWOS\PROYECTO\ferroapp-master v8 01-12-2020\ferroapp-master\FerroApp.ConsumeApis\bin\System.Web.Mvc.dll
+C:\Users\carna\Desktop\UTM\AWOS\PROYECTO\ferroapp-master v8 01-12-2020\ferroapp-master\FerroApp.ConsumeApis\bin\System.Web.Optimization.dll
+C:\Users\carna\Desktop\UTM\AWOS\PROYECTO\ferroapp-master v8 01-12-2020\ferroapp-master\FerroApp.ConsumeApis\bin\System.Web.Razor.dll
+C:\Users\carna\Desktop\UTM\AWOS\PROYECTO\ferroapp-master v8 01-12-2020\ferroapp-master\FerroApp.ConsumeApis\bin\System.Web.WebPages.Deployment.dll
+C:\Users\carna\Desktop\UTM\AWOS\PROYECTO\ferroapp-master v8 01-12-2020\ferroapp-master\FerroApp.ConsumeApis\bin\System.Web.WebPages.dll
+C:\Users\carna\Desktop\UTM\AWOS\PROYECTO\ferroapp-master v8 01-12-2020\ferroapp-master\FerroApp.ConsumeApis\bin\System.Web.WebPages.Razor.dll
+C:\Users\carna\Desktop\UTM\AWOS\PROYECTO\ferroapp-master v8 01-12-2020\ferroapp-master\FerroApp.ConsumeApis\bin\WebGrease.dll
+C:\Users\carna\Desktop\UTM\AWOS\PROYECTO\ferroapp-master v8 01-12-2020\ferroapp-master\FerroApp.ConsumeApis\bin\System.Net.Http.Formatting.xml
+C:\Users\carna\Desktop\UTM\AWOS\PROYECTO\ferroapp-master v8 01-12-2020\ferroapp-master\FerroApp.ConsumeApis\bin\System.Web.Http.xml
+C:\Users\carna\Desktop\UTM\AWOS\PROYECTO\ferroapp-master v8 01-12-2020\ferroapp-master\FerroApp.ConsumeApis\bin\System.Web.Http.WebHost.xml
+C:\Users\carna\Desktop\UTM\AWOS\PROYECTO\ferroapp-master v8 01-12-2020\ferroapp-master\FerroApp.ConsumeApis\bin\System.Web.Helpers.xml
+C:\Users\carna\Desktop\UTM\AWOS\PROYECTO\ferroapp-master v8 01-12-2020\ferroapp-master\FerroApp.ConsumeApis\bin\System.Web.Mvc.xml
+C:\Users\carna\Desktop\UTM\AWOS\PROYECTO\ferroapp-master v8 01-12-2020\ferroapp-master\FerroApp.ConsumeApis\bin\System.Web.Optimization.xml
+C:\Users\carna\Desktop\UTM\AWOS\PROYECTO\ferroapp-master v8 01-12-2020\ferroapp-master\FerroApp.ConsumeApis\bin\System.Web.Razor.xml
+C:\Users\carna\Desktop\UTM\AWOS\PROYECTO\ferroapp-master v8 01-12-2020\ferroapp-master\FerroApp.ConsumeApis\bin\System.Web.WebPages.xml
+C:\Users\carna\Desktop\UTM\AWOS\PROYECTO\ferroapp-master v8 01-12-2020\ferroapp-master\FerroApp.ConsumeApis\bin\System.Web.WebPages.Deployment.xml
+C:\Users\carna\Desktop\UTM\AWOS\PROYECTO\ferroapp-master v8 01-12-2020\ferroapp-master\FerroApp.ConsumeApis\bin\System.Web.WebPages.Razor.xml
+C:\Users\carna\Desktop\UTM\AWOS\PROYECTO\ferroapp-master v8 01-12-2020\ferroapp-master\FerroApp.ConsumeApis\bin\Newtonsoft.Json.xml
+C:\Users\carna\Desktop\UTM\AWOS\PROYECTO\ferroapp-master v8 01-12-2020\ferroapp-master\FerroApp.ConsumeApis\bin\Antlr3.Runtime.pdb
+C:\Users\carna\Desktop\UTM\AWOS\PROYECTO\ferroapp-master v8 01-12-2020\ferroapp-master\FerroApp.ConsumeApis\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\carna\Desktop\UTM\AWOS\PROYECTO\ferroapp-master v8 01-12-2020\ferroapp-master\FerroApp.ConsumeApis\bin\es\System.Web.Helpers.resources.dll
+C:\Users\carna\Desktop\UTM\AWOS\PROYECTO\ferroapp-master v8 01-12-2020\ferroapp-master\FerroApp.ConsumeApis\bin\es\System.Web.Mvc.resources.dll
+C:\Users\carna\Desktop\UTM\AWOS\PROYECTO\ferroapp-master v8 01-12-2020\ferroapp-master\FerroApp.ConsumeApis\bin\es\System.Web.Optimization.resources.dll
+C:\Users\carna\Desktop\UTM\AWOS\PROYECTO\ferroapp-master v8 01-12-2020\ferroapp-master\FerroApp.ConsumeApis\bin\es\System.Web.Razor.resources.dll
+C:\Users\carna\Desktop\UTM\AWOS\PROYECTO\ferroapp-master v8 01-12-2020\ferroapp-master\FerroApp.ConsumeApis\bin\es\System.Web.WebPages.resources.dll
+C:\Users\carna\Desktop\UTM\AWOS\PROYECTO\ferroapp-master v8 01-12-2020\ferroapp-master\FerroApp.ConsumeApis\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\carna\Desktop\UTM\AWOS\PROYECTO\ferroapp-master v8 01-12-2020\ferroapp-master\FerroApp.ConsumeApis\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\carna\Desktop\UTM\AWOS\PROYECTO\ferroapp-master v8 01-12-2020\ferroapp-master\FerroApp.ConsumeApis\obj\Debug\FerroApp.ConsumeApis.csproj.CopyComplete

@@ -1,13 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net.Http;
-using System.Threading.Tasks;
-using System.Web;
-using System.Web.Mvc;
-using FerroApp.ConsumeApis.Models;
+﻿using FerroApp.ConsumeApis.Models;
 using FerroApp.ConsumeApis.Responses;
 using Newtonsoft.Json;
+using System;
+using System.Collections.Generic;
+using System.Net.Http;
+using System.Threading.Tasks;
+using System.Web.Mvc;
 
 namespace FerroApp.ConsumeApis.Controllers
 {
@@ -22,24 +20,80 @@ namespace FerroApp.ConsumeApis.Controllers
             var ListProductos = JsonConvert.DeserializeObject<ApiResponse<IEnumerable<Producto>>>(Json);
             return View(ListProductos.Data);
         }
+
         public ActionResult Create()
         {
-            if(HttpContext.Session.GetString("Id") != null)
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult Create(Producto CrearProducto)
+        {
+            using (var client = new HttpClient())
             {
-                return View();
+                client.BaseAddress = new Uri("https://localhost:44367/api/producto");
+                var CrearProduc = client.PostAsJsonAsync<Producto>("https://localhost:44367/api/producto", CrearProducto);
+                CrearProduc.Wait();
+
+                var CreaResult = CrearProduc.Result;
+                if (CreaResult.IsSuccessStatusCode)
+                    return RedirectToAction("Index");
             }
-            else
+            ModelState.AddModelError(string.Empty, "Error al agregar producto");
+            return View(CrearProducto);
+        }
+        public ActionResult Update(int Codigo)
+        {
+            Producto producto = null;
+            using (var client = new HttpClient())
             {
-                return RedirectToAction("Index");
+                client.BaseAddress = new Uri("https://localhost:44367/api/producto/");
+                var responseTask = client.GetAsync("api/producto/" + Codigo.ToString());
+                responseTask.Wait();
+
+                var result = responseTask.Result;
+                if (result.IsSuccessStatusCode)
+                {
+                    var readTask = result.Content.ReadAsAsync<Producto>();
+                    readTask.Wait();
+
+                    producto = readTask.Result;
+                }
             }
+            return View(producto);
         }
         [HttpPost]
-        public async Task<ActionResult> Create(Producto requestDto)
+        public ActionResult Update(Producto producto)
         {
-            requestDto.Codigo = Int32.Parse(HttpContext.Session.GetString("Id"));
-            var httpClient = new HttpClient();
-            var Json = await httpClient.PostAsJsonAsync("https://localhost:44367/api/producto", requestDto);
-            return View(requestDto);
+            using (var client = new HttpClient())
+            {
+                client.BaseAddress = new Uri("https://localhost:44367/api/producto");
+                var putTask = client.PutAsJsonAsync<Producto>($"/api/Producto/{producto.Codigo}", producto);
+                putTask.Wait();
+
+                var result = putTask.Result;
+                if (result.IsSuccessStatusCode)
+                {
+                    return RedirectToAction("Index");
+                }  
+                
+            }
+            return View(producto);
+        }
+        //Delete Product
+        public ActionResult DeleteProduct(int Codigo)
+        {
+            using (var client = new HttpClient())
+            {
+                client.BaseAddress = new Uri("https://localhost:44367/api/");
+                var deleteTask = client.DeleteAsync("Producto/" + Codigo.ToString());
+                var result = deleteTask.Result;
+                if (result.IsSuccessStatusCode)
+                {
+                    return RedirectToAction("Index");
+                }
+            }
+            return RedirectToAction("Index");
         }
 
     }

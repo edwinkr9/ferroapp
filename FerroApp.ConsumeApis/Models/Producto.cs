@@ -12,5 +12,6 @@ namespace FerroApp.ConsumeApis.Models
         public string Precio { get; set; }
         public string Marca { get; set; }
         public string Categoria { get; set; }
+        public int UpdatedBy { get; internal set; }
     }
 }
