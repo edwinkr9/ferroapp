@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\carna\\Desktop\\UTM\\AWOS\\PROYECTO\\ferroapp-master v8 01-12-2020\\ferroapp-master\\FerroApp.Application\\FerroApp.Application.csproj": {}
+    "C:\\Users\\edwin\\Desktop\\Proyecto_FerroApp\\FerroApp\\FerroApp.Application\\FerroApp.Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\carna\\Desktop\\UTM\\AWOS\\PROYECTO\\ferroapp-master v8 01-12-2020\\ferroapp-master\\FerroApp.Application\\FerroApp.Application.csproj": {
+    "C:\\Users\\edwin\\Desktop\\Proyecto_FerroApp\\FerroApp\\FerroApp.Application\\FerroApp.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\carna\\Desktop\\UTM\\AWOS\\PROYECTO\\ferroapp-master v8 01-12-2020\\ferroapp-master\\FerroApp.Application\\FerroApp.Application.csproj",
+        "projectUniqueName": "C:\\Users\\edwin\\Desktop\\Proyecto_FerroApp\\FerroApp\\FerroApp.Application\\FerroApp.Application.csproj",
         "projectName": "FerroApp.Application",
-        "projectPath": "C:\\Users\\carna\\Desktop\\UTM\\AWOS\\PROYECTO\\ferroapp-master v8 01-12-2020\\ferroapp-master\\FerroApp.Application\\FerroApp.Application.csproj",
-        "packagesPath": "C:\\Users\\carna\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\carna\\Desktop\\UTM\\AWOS\\PROYECTO\\ferroapp-master v8 01-12-2020\\ferroapp-master\\FerroApp.Application\\obj\\",
+        "projectPath": "C:\\Users\\edwin\\Desktop\\Proyecto_FerroApp\\FerroApp\\FerroApp.Application\\FerroApp.Application.csproj",
+        "packagesPath": "C:\\Users\\edwin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\edwin\\Desktop\\Proyecto_FerroApp\\FerroApp\\FerroApp.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\carna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\edwin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
