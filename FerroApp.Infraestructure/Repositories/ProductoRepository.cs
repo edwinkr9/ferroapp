@@ -39,10 +39,14 @@ namespace FerroApp.Infraestructure.Repositories
         {
             var current = await GetProducto(producto.Codigo);
             current.Codigo = producto.Codigo;
+            current.Clave = producto.Clave;
             current.Nombre = producto.Nombre;
             current.Marca = producto.Marca;
             current.Categoria = producto.Categoria;
             current.Precio = producto.Precio;
+            current.Stock = producto.Stock;
+            current.Descripcion = producto.Descripcion;
+            current.Image = producto.Image;
 
             var rowsUpdate = await _context.SaveChangesAsync();
             return rowsUpdate > 0;

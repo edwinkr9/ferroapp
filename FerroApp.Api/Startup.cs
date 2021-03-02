@@ -39,6 +39,7 @@ namespace FerroApp.Api
             services.AddTransient<IProductoRepository, ProductoRepository>();
             services.AddTransient<IGerenteRepository, GerenteRepository>();
             services.AddTransient<IClienteRepository, ClienteRepository>();
+            services.AddTransient<IUsuarioRepository, UsuarioRepository>();
 
             services.AddMvc().AddFluentValidation(options =>
             options.RegisterValidatorsFromAssemblies(AppDomain.CurrentDomain.GetAssemblies()));

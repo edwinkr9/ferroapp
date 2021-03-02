@@ -20,16 +20,12 @@ namespace FerroApp.Api.Controllers
         private readonly IProductoRepository _repository;
         private readonly IMapper _mapper;
        
-
-        //public ProductoController(IProductoRepository repository)
-        //{
-        //    this._repository = repository;
-        //}
         public ProductoController(IProductoRepository repository, IMapper mapper)
         {
             _repository = repository;
             this._mapper = mapper;
         }
+        //Metodo de borrar producto
         [HttpDelete("{id:int}")]
         public async Task<ActionResult> Delete(int id)
         {
@@ -38,6 +34,8 @@ namespace FerroApp.Api.Controllers
 
             return Ok(response);
         }
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //Metodo de modificar productos
         [HttpPut]
         public async Task<IActionResult> Put(int id, ProductoRequestDto productoDto)
         {
@@ -47,7 +45,8 @@ namespace FerroApp.Api.Controllers
 
             return Ok(response);
         }
-
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //Metodo de obtener lista de productos
         [HttpGet]
         public async Task<IActionResult> Get()
         {
@@ -57,29 +56,25 @@ namespace FerroApp.Api.Controllers
 
             return Ok(response);
         }
-
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //Metodo de obtener por id a los productos
         [HttpGet("{id:int}")]
         public async Task<IActionResult> Get(int id)
         {
             var producto = await _repository.GetProducto(id);
-            //var config = new MapperConfiguration(mc => mc.CreateMap<Producto, ProductoResponseDto>());
-            //var _mapper = new Mapper(config);
             var productoDto = _mapper.Map<Producto, ProductoResponseDto>(producto);
             var response = new ApiResponse<ProductoResponseDto>(productoDto);
 
             return Ok(response);
         }
-
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //Metodo de crear a los gerentes
         [HttpPost]
         public async Task<IActionResult> Post(ProductoRequestDto productoDto)
         {
-            //var config = new MapperConfiguration(mc => mc.CreateMap<Producto, ProductoRequestDto>());
-            //var _mapper = new Mapper(config);
+
             var producto = _mapper.Map<ProductoRequestDto, Producto>(productoDto);
             await _repository.AddProducto(producto);
-
-            //config = new MapperConfiguration(mc => mc.CreateMap<Producto, ProductoResponseDto>());
-            //_mapper = new Mapper(config);
             var productoresponseDto = _mapper.Map<Producto, ProductoResponseDto>(producto);
             var response = new ApiResponse<ProductoResponseDto>(productoresponseDto);
 

@@ -11,12 +11,12 @@ namespace FerroApp.Infraestructure.Data.Configuration
     {
         public void Configure(EntityTypeBuilder<Gerente> builder)
         {
+
+
             builder.HasKey(e => e.IdGerente)
-                  .HasName("PK__Gerente__06016C453906755A");
+     .HasName("PK__Gerente__06016C4597FF6D12");
 
             builder.ToTable("Gerente");
-
-            builder.Property(e => e.IdGerente).ValueGeneratedNever();
 
             builder.Property(e => e.ApellidoMaterno)
                 .IsRequired()
@@ -37,7 +37,7 @@ namespace FerroApp.Infraestructure.Data.Configuration
                 .WithMany(p => p.Gerentes)
                 .HasForeignKey(d => d.IdUsuario)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Gerente__Apellid__619B8048");
+                .HasConstraintName("FK__Gerente__Apellid__33D4B598");
         }
     }
 }

@@ -11,15 +11,25 @@ namespace FerroApp.Infraestructure.Data.Configuration
     {
         public void Configure(EntityTypeBuilder<Producto> builder)
         {
+
             builder.HasKey(e => e.Codigo)
-                    .HasName("PK__Producto__06370DADE507358B");
+                .HasName("PK__Producto__06370DADE10ADC24");
 
             builder.ToTable("Producto");
 
-            builder.Property(e => e.Codigo).ValueGeneratedNever();
-
             builder.Property(e => e.Categoria)
-                .IsRequired()
+                .HasMaxLength(200)
+                .IsUnicode(false);
+
+            builder.Property(e => e.Clave)
+                .HasMaxLength(200)
+                .IsUnicode(false);
+
+            builder.Property(e => e.Descripcion)
+                .HasMaxLength(1000)
+                .IsUnicode(false);
+
+            builder.Property(e => e.Image)
                 .HasMaxLength(200)
                 .IsUnicode(false);
 
@@ -37,6 +47,11 @@ namespace FerroApp.Infraestructure.Data.Configuration
                 .IsRequired()
                 .HasMaxLength(200)
                 .IsUnicode(false);
+
+            builder.Property(e => e.Stock)
+                .HasMaxLength(1000)
+                .IsUnicode(false);
+
         }
     }
 }

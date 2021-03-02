@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ACUts/e1+dDNl31jWs2LiC1nbneTEMxapHXOcbY1Y0Jyt9SYSFMXUNPLjUqx94Q2i1dITMN1qMDiBmTpSyrmfg==",
+  "dgSpecHash": "uR1irgcrLcPr/cflYaf0zA08ApY3M/2BsiTnzI/BFlWiEOvENzm4/htip/z9n/2d44ZEGIFikQND+9XLsG0XIg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\edwin\\Desktop\\Proyecto_FerroApp\\FerroApp\\FerroApp.Domain\\FerroApp.Domain.csproj",
+  "projectFilePath": "C:\\Users\\carna\\Desktop\\Version 3.0 Proyecto FerroApp Nuevo datatype y views actualizadas con nuevos controlladores\\FerroApp.Api\\FerroApp.Domain\\FerroApp.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

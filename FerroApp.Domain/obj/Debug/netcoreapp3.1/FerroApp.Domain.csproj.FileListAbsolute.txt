@@ -34,3 +34,48 @@ C:\Users\carna\Desktop\UTM\AWOS\PROYECTO\ferroapp-master v8 01-12-2020\ferroapp-
 C:\Users\carna\Desktop\UTM\AWOS\PROYECTO\ferroapp-master v8 01-12-2020\ferroapp-master\FerroApp.Domain\obj\Debug\netcoreapp3.1\FerroApp.Domain.csproj.CoreCompileInputs.cache
 C:\Users\carna\Desktop\UTM\AWOS\PROYECTO\ferroapp-master v8 01-12-2020\ferroapp-master\FerroApp.Domain\obj\Debug\netcoreapp3.1\FerroApp.Domain.dll
 C:\Users\carna\Desktop\UTM\AWOS\PROYECTO\ferroapp-master v8 01-12-2020\ferroapp-master\FerroApp.Domain\obj\Debug\netcoreapp3.1\FerroApp.Domain.pdb
+C:\Users\carna\Desktop\UTM\AWOS\PROYECTO\FerroApp\ferroapp-master v8 02-12-2020\Nueva carpeta\ferroapp-master\FerroApp.Domain\bin\Debug\netcoreapp3.1\FerroApp.Domain.deps.json
+C:\Users\carna\Desktop\UTM\AWOS\PROYECTO\FerroApp\ferroapp-master v8 02-12-2020\Nueva carpeta\ferroapp-master\FerroApp.Domain\bin\Debug\netcoreapp3.1\FerroApp.Domain.dll
+C:\Users\carna\Desktop\UTM\AWOS\PROYECTO\FerroApp\ferroapp-master v8 02-12-2020\Nueva carpeta\ferroapp-master\FerroApp.Domain\bin\Debug\netcoreapp3.1\FerroApp.Domain.pdb
+C:\Users\carna\Desktop\UTM\AWOS\PROYECTO\FerroApp\ferroapp-master v8 02-12-2020\Nueva carpeta\ferroapp-master\FerroApp.Domain\obj\Debug\netcoreapp3.1\FerroApp.Domain.csprojAssemblyReference.cache
+C:\Users\carna\Desktop\UTM\AWOS\PROYECTO\FerroApp\ferroapp-master v8 02-12-2020\Nueva carpeta\ferroapp-master\FerroApp.Domain\obj\Debug\netcoreapp3.1\FerroApp.Domain.AssemblyInfoInputs.cache
+C:\Users\carna\Desktop\UTM\AWOS\PROYECTO\FerroApp\ferroapp-master v8 02-12-2020\Nueva carpeta\ferroapp-master\FerroApp.Domain\obj\Debug\netcoreapp3.1\FerroApp.Domain.AssemblyInfo.cs
+C:\Users\carna\Desktop\UTM\AWOS\PROYECTO\FerroApp\ferroapp-master v8 02-12-2020\Nueva carpeta\ferroapp-master\FerroApp.Domain\obj\Debug\netcoreapp3.1\FerroApp.Domain.csproj.CoreCompileInputs.cache
+C:\Users\carna\Desktop\UTM\AWOS\PROYECTO\FerroApp\ferroapp-master v8 02-12-2020\Nueva carpeta\ferroapp-master\FerroApp.Domain\obj\Debug\netcoreapp3.1\FerroApp.Domain.dll
+C:\Users\carna\Desktop\UTM\AWOS\PROYECTO\FerroApp\ferroapp-master v8 02-12-2020\Nueva carpeta\ferroapp-master\FerroApp.Domain\obj\Debug\netcoreapp3.1\FerroApp.Domain.pdb
+C:\Users\carna\Documents\UTM\Aplicaciones web para I4.0\Proyectp\ferroapp-master\FerroApp.Domain\bin\Debug\netcoreapp3.1\FerroApp.Domain.deps.json
+C:\Users\carna\Documents\UTM\Aplicaciones web para I4.0\Proyectp\ferroapp-master\FerroApp.Domain\bin\Debug\netcoreapp3.1\FerroApp.Domain.dll
+C:\Users\carna\Documents\UTM\Aplicaciones web para I4.0\Proyectp\ferroapp-master\FerroApp.Domain\bin\Debug\netcoreapp3.1\FerroApp.Domain.pdb
+C:\Users\carna\Documents\UTM\Aplicaciones web para I4.0\Proyectp\ferroapp-master\FerroApp.Domain\obj\Debug\netcoreapp3.1\FerroApp.Domain.csprojAssemblyReference.cache
+C:\Users\carna\Documents\UTM\Aplicaciones web para I4.0\Proyectp\ferroapp-master\FerroApp.Domain\obj\Debug\netcoreapp3.1\FerroApp.Domain.AssemblyInfoInputs.cache
+C:\Users\carna\Documents\UTM\Aplicaciones web para I4.0\Proyectp\ferroapp-master\FerroApp.Domain\obj\Debug\netcoreapp3.1\FerroApp.Domain.AssemblyInfo.cs
+C:\Users\carna\Documents\UTM\Aplicaciones web para I4.0\Proyectp\ferroapp-master\FerroApp.Domain\obj\Debug\netcoreapp3.1\FerroApp.Domain.csproj.CoreCompileInputs.cache
+C:\Users\carna\Documents\UTM\Aplicaciones web para I4.0\Proyectp\ferroapp-master\FerroApp.Domain\obj\Debug\netcoreapp3.1\FerroApp.Domain.dll
+C:\Users\carna\Documents\UTM\Aplicaciones web para I4.0\Proyectp\ferroapp-master\FerroApp.Domain\obj\Debug\netcoreapp3.1\FerroApp.Domain.pdb
+C:\Users\carna\Documents\UTM\Aplicaciones web para I4.0\Proyecto\ferroapp-master\FerroApp.Domain\bin\Debug\netcoreapp3.1\FerroApp.Domain.deps.json
+C:\Users\carna\Documents\UTM\Aplicaciones web para I4.0\Proyecto\ferroapp-master\FerroApp.Domain\bin\Debug\netcoreapp3.1\FerroApp.Domain.dll
+C:\Users\carna\Documents\UTM\Aplicaciones web para I4.0\Proyecto\ferroapp-master\FerroApp.Domain\bin\Debug\netcoreapp3.1\FerroApp.Domain.pdb
+C:\Users\carna\Documents\UTM\Aplicaciones web para I4.0\Proyecto\ferroapp-master\FerroApp.Domain\obj\Debug\netcoreapp3.1\FerroApp.Domain.csprojAssemblyReference.cache
+C:\Users\carna\Documents\UTM\Aplicaciones web para I4.0\Proyecto\ferroapp-master\FerroApp.Domain\obj\Debug\netcoreapp3.1\FerroApp.Domain.AssemblyInfoInputs.cache
+C:\Users\carna\Documents\UTM\Aplicaciones web para I4.0\Proyecto\ferroapp-master\FerroApp.Domain\obj\Debug\netcoreapp3.1\FerroApp.Domain.AssemblyInfo.cs
+C:\Users\carna\Documents\UTM\Aplicaciones web para I4.0\Proyecto\ferroapp-master\FerroApp.Domain\obj\Debug\netcoreapp3.1\FerroApp.Domain.csproj.CoreCompileInputs.cache
+C:\Users\carna\Documents\UTM\Aplicaciones web para I4.0\Proyecto\ferroapp-master\FerroApp.Domain\obj\Debug\netcoreapp3.1\FerroApp.Domain.dll
+C:\Users\carna\Documents\UTM\Aplicaciones web para I4.0\Proyecto\ferroapp-master\FerroApp.Domain\obj\Debug\netcoreapp3.1\FerroApp.Domain.pdb
+C:\Users\carna\Documents\UTM\Aplicaciones web para I4.0\Proyecto\Version 1.0 Proyecto FerroApp\FerroApp.Api\FerroApp.Domain\bin\Debug\netcoreapp3.1\FerroApp.Domain.deps.json
+C:\Users\carna\Documents\UTM\Aplicaciones web para I4.0\Proyecto\Version 1.0 Proyecto FerroApp\FerroApp.Api\FerroApp.Domain\bin\Debug\netcoreapp3.1\FerroApp.Domain.dll
+C:\Users\carna\Documents\UTM\Aplicaciones web para I4.0\Proyecto\Version 1.0 Proyecto FerroApp\FerroApp.Api\FerroApp.Domain\bin\Debug\netcoreapp3.1\FerroApp.Domain.pdb
+C:\Users\carna\Documents\UTM\Aplicaciones web para I4.0\Proyecto\Version 1.0 Proyecto FerroApp\FerroApp.Api\FerroApp.Domain\obj\Debug\netcoreapp3.1\FerroApp.Domain.csprojAssemblyReference.cache
+C:\Users\carna\Documents\UTM\Aplicaciones web para I4.0\Proyecto\Version 1.0 Proyecto FerroApp\FerroApp.Api\FerroApp.Domain\obj\Debug\netcoreapp3.1\FerroApp.Domain.AssemblyInfoInputs.cache
+C:\Users\carna\Documents\UTM\Aplicaciones web para I4.0\Proyecto\Version 1.0 Proyecto FerroApp\FerroApp.Api\FerroApp.Domain\obj\Debug\netcoreapp3.1\FerroApp.Domain.AssemblyInfo.cs
+C:\Users\carna\Documents\UTM\Aplicaciones web para I4.0\Proyecto\Version 1.0 Proyecto FerroApp\FerroApp.Api\FerroApp.Domain\obj\Debug\netcoreapp3.1\FerroApp.Domain.csproj.CoreCompileInputs.cache
+C:\Users\carna\Documents\UTM\Aplicaciones web para I4.0\Proyecto\Version 1.0 Proyecto FerroApp\FerroApp.Api\FerroApp.Domain\obj\Debug\netcoreapp3.1\FerroApp.Domain.dll
+C:\Users\carna\Documents\UTM\Aplicaciones web para I4.0\Proyecto\Version 1.0 Proyecto FerroApp\FerroApp.Api\FerroApp.Domain\obj\Debug\netcoreapp3.1\FerroApp.Domain.pdb
+C:\Users\carna\Documents\UTM\Aplicaciones web para I4.0\Proyecto\Version 2.0 Proyecto FerroApp views con estilo\FerroApp.Api\FerroApp.Domain\bin\Debug\netcoreapp3.1\FerroApp.Domain.deps.json
+C:\Users\carna\Documents\UTM\Aplicaciones web para I4.0\Proyecto\Version 2.0 Proyecto FerroApp views con estilo\FerroApp.Api\FerroApp.Domain\bin\Debug\netcoreapp3.1\FerroApp.Domain.dll
+C:\Users\carna\Documents\UTM\Aplicaciones web para I4.0\Proyecto\Version 2.0 Proyecto FerroApp views con estilo\FerroApp.Api\FerroApp.Domain\bin\Debug\netcoreapp3.1\FerroApp.Domain.pdb
+C:\Users\carna\Documents\UTM\Aplicaciones web para I4.0\Proyecto\Version 2.0 Proyecto FerroApp views con estilo\FerroApp.Api\FerroApp.Domain\obj\Debug\netcoreapp3.1\FerroApp.Domain.AssemblyInfoInputs.cache
+C:\Users\carna\Documents\UTM\Aplicaciones web para I4.0\Proyecto\Version 2.0 Proyecto FerroApp views con estilo\FerroApp.Api\FerroApp.Domain\obj\Debug\netcoreapp3.1\FerroApp.Domain.AssemblyInfo.cs
+C:\Users\carna\Documents\UTM\Aplicaciones web para I4.0\Proyecto\Version 2.0 Proyecto FerroApp views con estilo\FerroApp.Api\FerroApp.Domain\obj\Debug\netcoreapp3.1\FerroApp.Domain.csproj.CoreCompileInputs.cache
+C:\Users\carna\Documents\UTM\Aplicaciones web para I4.0\Proyecto\Version 2.0 Proyecto FerroApp views con estilo\FerroApp.Api\FerroApp.Domain\obj\Debug\netcoreapp3.1\FerroApp.Domain.dll
+C:\Users\carna\Documents\UTM\Aplicaciones web para I4.0\Proyecto\Version 2.0 Proyecto FerroApp views con estilo\FerroApp.Api\FerroApp.Domain\obj\Debug\netcoreapp3.1\FerroApp.Domain.pdb
+C:\Users\carna\Documents\UTM\Aplicaciones web para I4.0\Proyecto\Version 2.0 Proyecto FerroApp views con estilo\FerroApp.Api\FerroApp.Domain\obj\Debug\netcoreapp3.1\FerroApp.Domain.csprojAssemblyReference.cache

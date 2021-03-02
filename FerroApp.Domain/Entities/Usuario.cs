@@ -9,7 +9,7 @@ namespace FerroApp.Domain.Entities
     {
         public Usuario()
         {
-            Administradors = new HashSet<Administrador>();
+            //Administradors = new HashSet<Administrador>();
             Clientes = new HashSet<Cliente>();
             Gerentes = new HashSet<Gerente>();
         }
@@ -18,7 +18,7 @@ namespace FerroApp.Domain.Entities
         public string Correo { get; set; }
         public string Contraseña { get; set; }
 
-        public virtual ICollection<Administrador> Administradors { get; set; }
+        //public virtual ICollection<Administrador> Administradors { get; set; }
         public virtual ICollection<Cliente> Clientes { get; set; }
         public virtual ICollection<Gerente> Gerentes { get; set; }
     }

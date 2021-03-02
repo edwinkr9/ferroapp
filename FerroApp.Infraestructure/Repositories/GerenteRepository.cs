@@ -41,6 +41,7 @@ namespace FerroApp.Infraestructure.Repositories
             current.Nombres = gerente.Nombres;
             current.ApellidoPaterno = gerente.ApellidoPaterno;
             current.ApellidoMaterno = gerente.ApellidoMaterno;
+         
 
             var rowsUpdate = await _context.SaveChangesAsync();
             return rowsUpdate > 0;

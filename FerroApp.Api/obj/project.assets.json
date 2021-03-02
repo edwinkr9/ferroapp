@@ -1591,7 +1591,10 @@
         },
         "runtime": {
           "bin/placeholder/FerroApp.Infraestructure.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -5954,20 +5957,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\edwin\\.nuget\\packages\\": {}
+    "C:\\Users\\carna\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\edwin\\Desktop\\Proyecto_FerroApp\\FerroApp\\FerroApp.Api\\FerroApp.Api.csproj",
+      "projectUniqueName": "C:\\Users\\carna\\Desktop\\Version 3.0 Proyecto FerroApp Nuevo datatype y views actualizadas con nuevos controlladores\\FerroApp.Api\\FerroApp.Api\\FerroApp.Api.csproj",
       "projectName": "FerroApp.Api",
-      "projectPath": "C:\\Users\\edwin\\Desktop\\Proyecto_FerroApp\\FerroApp\\FerroApp.Api\\FerroApp.Api.csproj",
-      "packagesPath": "C:\\Users\\edwin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\edwin\\Desktop\\Proyecto_FerroApp\\FerroApp\\FerroApp.Api\\obj\\",
+      "projectPath": "C:\\Users\\carna\\Desktop\\Version 3.0 Proyecto FerroApp Nuevo datatype y views actualizadas con nuevos controlladores\\FerroApp.Api\\FerroApp.Api\\FerroApp.Api.csproj",
+      "packagesPath": "C:\\Users\\carna\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\carna\\Desktop\\Version 3.0 Proyecto FerroApp Nuevo datatype y views actualizadas con nuevos controlladores\\FerroApp.Api\\FerroApp.Api\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "C:\\Users\\edwin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\carna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -5978,12 +5986,13 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\edwin\\Desktop\\Proyecto_FerroApp\\FerroApp\\FerroApp.Domain\\FerroApp.Domain.csproj": {
-              "projectPath": "C:\\Users\\edwin\\Desktop\\Proyecto_FerroApp\\FerroApp\\FerroApp.Domain\\FerroApp.Domain.csproj"
+            "C:\\Users\\carna\\Desktop\\Version 3.0 Proyecto FerroApp Nuevo datatype y views actualizadas con nuevos controlladores\\FerroApp.Api\\FerroApp.Domain\\FerroApp.Domain.csproj": {
+              "projectPath": "C:\\Users\\carna\\Desktop\\Version 3.0 Proyecto FerroApp Nuevo datatype y views actualizadas con nuevos controlladores\\FerroApp.Api\\FerroApp.Domain\\FerroApp.Domain.csproj"
             },
-            "C:\\Users\\edwin\\Desktop\\Proyecto_FerroApp\\FerroApp\\FerroApp.Infraestructure\\FerroApp.Infraestructure.csproj": {
-              "projectPath": "C:\\Users\\edwin\\Desktop\\Proyecto_FerroApp\\FerroApp\\FerroApp.Infraestructure\\FerroApp.Infraestructure.csproj"
+            "C:\\Users\\carna\\Desktop\\Version 3.0 Proyecto FerroApp Nuevo datatype y views actualizadas con nuevos controlladores\\FerroApp.Api\\FerroApp.Infraestructure\\FerroApp.Infraestructure.csproj": {
+              "projectPath": "C:\\Users\\carna\\Desktop\\Version 3.0 Proyecto FerroApp Nuevo datatype y views actualizadas con nuevos controlladores\\FerroApp.Api\\FerroApp.Infraestructure\\FerroApp.Infraestructure.csproj"
             }
           }
         }
@@ -5996,6 +6005,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": {
             "target": "Package",
@@ -6026,7 +6036,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

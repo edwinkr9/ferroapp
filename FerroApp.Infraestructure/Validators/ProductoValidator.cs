@@ -11,9 +11,7 @@ namespace FerroApp.Infraestructure.Validators
     {
         public ProductoValidator()
         {
-            RuleFor(producto => producto.Codigo)
-                .GreaterThan(0);
-
+            
         }
     }
 }

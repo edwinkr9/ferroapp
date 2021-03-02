@@ -7,10 +7,10 @@ namespace FerroApp.Domain.Entities
 {
     public partial class Cliente
     {
-        public Cliente()
-        {
-            CarritoCompras = new HashSet<CarritoCompra>();
-        }
+        //public Cliente()
+        //{
+        //    CarritoCompras = new HashSet<CarritoCompra>();
+        //}
 
         public int IdCliente { get; set; }
         public int IdUsuario { get; set; }
@@ -21,6 +21,6 @@ namespace FerroApp.Domain.Entities
         public string Cp { get; set; }
 
         public virtual Usuario IdUsuarioNavigation { get; set; }
-        public virtual ICollection<CarritoCompra> CarritoCompras { get; set; }
+        //public virtual ICollection<CarritoCompra> CarritoCompras { get; set; }
     }
 }

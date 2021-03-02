@@ -20,8 +20,8 @@ namespace FerroApp.Infraestructure.Data
         {
         }
 
-        public virtual DbSet<Administrador> Administradors { get; set; }
-        public virtual DbSet<CarritoCompra> CarritoCompras { get; set; }
+        //public virtual DbSet<Administrador> Administrador { get; set; }
+        //public virtual DbSet<CarritoCompra> CarritoCompras { get; set; }
         public virtual DbSet<Cliente> Clientes { get; set; }
         public virtual DbSet<Gerente> Gerentes { get; set; }
         public virtual DbSet<Producto> Productos { get; set; }
@@ -33,78 +33,79 @@ namespace FerroApp.Infraestructure.Data
             modelBuilder.ApplyConfiguration<Producto>(new ProductoConfiguration());
             modelBuilder.ApplyConfiguration<Gerente>(new GerenteConfiguration());
             modelBuilder.ApplyConfiguration<Cliente>(new ClienteConfiguration());
+            modelBuilder.ApplyConfiguration<Usuario>(new UsuarioConfiguration());
 
 
-            modelBuilder.Entity<Administrador>(entity =>
-            {
-                entity.HasKey(e => e.IdAdministrador)
-                    .HasName("PK__Administ__2B3E34A885B45DD3");
+            ////modelBuilder.Entity<Administrador>(entity =>
+            ////{
+            ////    entity.HasKey(e => e.IdAdministrador)
+            ////        .HasName("PK__Administ__2B3E34A885B45DD3");
 
-                entity.ToTable("Administrador");
+            ////    entity.ToTable("Administrador");
 
-                entity.Property(e => e.IdAdministrador).ValueGeneratedNever();
+            ////    entity.Property(e => e.IdAdministrador).ValueGeneratedNever();
 
-                entity.Property(e => e.ApellidoMaterno)
-                    .IsRequired()
-                    .HasMaxLength(200)
-                    .IsUnicode(false);
+            ////    entity.Property(e => e.ApellidoMaterno)
+            ////        .IsRequired()
+            ////        .HasMaxLength(200)
+            ////        .IsUnicode(false);
 
-                entity.Property(e => e.ApellidoPaterno)
-                    .IsRequired()
-                    .HasMaxLength(200)
-                    .IsUnicode(false);
+            ////    entity.Property(e => e.ApellidoPaterno)
+            ////        .IsRequired()
+            ////        .HasMaxLength(200)
+            ////        .IsUnicode(false);
 
-                entity.Property(e => e.Nombres)
-                    .IsRequired()
-                    .HasMaxLength(200)
-                    .IsUnicode(false);
+            ////    entity.Property(e => e.Nombres)
+            ////        .IsRequired()
+            ////        .HasMaxLength(200)
+            ////        .IsUnicode(false);
 
-                entity.HasOne(d => d.IdUsuarioNavigation)
-                    .WithMany(p => p.Administradors)
-                    .HasForeignKey(d => d.IdUsuario)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("FK__Administr__IdUsu__6754599E");
-            });
+            ////    entity.HasOne(d => d.IdUsuarioNavigation)
+            ////        .WithMany(p => p.Administradors)
+            ////        .HasForeignKey(d => d.IdUsuario)
+            ////        .OnDelete(DeleteBehavior.ClientSetNull)
+            ////        .HasConstraintName("FK__Administr__IdUsu__6754599E");
+            ////});
 
-            modelBuilder.Entity<CarritoCompra>(entity =>
-            {
-                entity.HasKey(e => e.IdCarrito)
-                    .HasName("PK__CarritoC__8B4A618C5E1FA6C1");
+            //modelBuilder.Entity<CarritoCompra>(entity =>
+            //{
+            //    entity.HasKey(e => e.IdCarrito)
+            //        .HasName("PK__CarritoC__8B4A618C5E1FA6C1");
 
-                entity.Property(e => e.IdCarrito).ValueGeneratedNever();
+            //    entity.Property(e => e.IdCarrito).ValueGeneratedNever();
 
-                entity.Property(e => e.ApellidoMaterno)
-                    .IsRequired()
-                    .HasMaxLength(200)
-                    .IsUnicode(false);
+            //    entity.Property(e => e.ApellidoMaterno)
+            //        .IsRequired()
+            //        .HasMaxLength(200)
+            //        .IsUnicode(false);
 
-                entity.Property(e => e.ApellidoPaterno)
-                    .IsRequired()
-                    .HasMaxLength(200)
-                    .IsUnicode(false);
+            //    entity.Property(e => e.ApellidoPaterno)
+            //        .IsRequired()
+            //        .HasMaxLength(200)
+            //        .IsUnicode(false);
 
-                entity.Property(e => e.DireccionCliente)
-                    .IsRequired()
-                    .HasMaxLength(200)
-                    .IsUnicode(false);
+            //    entity.Property(e => e.DireccionCliente)
+            //        .IsRequired()
+            //        .HasMaxLength(200)
+            //        .IsUnicode(false);
 
-                entity.Property(e => e.PagoTotal)
-                    .IsRequired()
-                    .HasMaxLength(2000)
-                    .IsUnicode(false);
+            //    entity.Property(e => e.PagoTotal)
+            //        .IsRequired()
+            //        .HasMaxLength(2000)
+            //        .IsUnicode(false);
 
-                entity.HasOne(d => d.IdClienteNavigation)
-                    .WithMany(p => p.CarritoCompras)
-                    .HasForeignKey(d => d.IdCliente)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("FK__CarritoCo__PagoT__787EE5A0");
+            //    //entity.HasOne(d => d.IdClienteNavigation)
+            //    //    .WithMany(p => p.CarritoCompras)
+            //    //    .HasForeignKey(d => d.IdCliente)
+            //    //    .OnDelete(DeleteBehavior.ClientSetNull)
+            //    //    .HasConstraintName("FK__CarritoCo__PagoT__787EE5A0");
 
-                //entity.HasOne(d => d.IdProductoNavigation)
-                //    .WithMany(p => p.CarritoCompras)
-                //    .HasForeignKey(d => d.IdProducto)
-                //    .OnDelete(DeleteBehavior.ClientSetNull)
-                //    .HasConstraintName("FK__CarritoCo__IdPro__797309D9");
-            });
+            //    //entity.HasOne(d => d.IdProductoNavigation)
+            //    //    .WithMany(p => p.CarritoCompras)
+            //    //    .HasForeignKey(d => d.IdProducto)
+            //    //    .OnDelete(DeleteBehavior.ClientSetNull)
+            //    //    .HasConstraintName("FK__CarritoCo__IdPro__797309D9");
+            //});
 
             //modelBuilder.Entity<Cliente>(entity =>
             //{
@@ -209,25 +210,25 @@ namespace FerroApp.Infraestructure.Data
                 //    .IsUnicode(false);
             //});
 
-            modelBuilder.Entity<Usuario>(entity =>
-            {
-                entity.HasKey(e => e.IdUsuario)
-                    .HasName("PK__Usuario__5B65BF977993E95A");
+            //modelBuilder.Entity<Usuario>(entity =>
+            //{
+            //    entity.HasKey(e => e.IdUsuario)
+            //        .HasName("PK__Usuario__5B65BF977993E95A");
 
-                entity.ToTable("Usuario");
+            //    entity.ToTable("Usuario");
 
-                entity.Property(e => e.IdUsuario).ValueGeneratedNever();
+            //    entity.Property(e => e.IdUsuario).ValueGeneratedNever();
 
-                entity.Property(e => e.Contraseña)
-                    .IsRequired()
-                    .HasMaxLength(200)
-                    .IsUnicode(false);
+            //    entity.Property(e => e.Contraseña)
+            //        .IsRequired()
+            //        .HasMaxLength(200)
+            //        .IsUnicode(false);
 
-                entity.Property(e => e.Correo)
-                    .IsRequired()
-                    .HasMaxLength(200)
-                    .IsUnicode(false);
-            });
+            //    entity.Property(e => e.Correo)
+            //        .IsRequired()
+            //        .HasMaxLength(200)
+            //        .IsUnicode(false);
+            //});
 
             
         }

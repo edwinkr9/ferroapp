@@ -38,6 +38,7 @@ namespace FerroApp.Infraestructure.Repositories
         {
             var current = await GetCliente(cliente.IdCliente);
             current.IdCliente = cliente.IdCliente;
+            //current.IdUsuario = cliente.IdUsuario;
             current.Nombres = cliente.Nombres;           
             current.ApellidoPaterno = cliente.ApellidoPaterno;
             current.ApellidoMaterno = cliente.ApellidoMaterno;
